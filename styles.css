@@ -257,7 +257,7 @@ main{
     color:#b5b5b5;
 }
 
-/* SPECIFICATION */
+/* ✅ FIXED SPECIFICATION / VERIFICATION */
 .specification-box{
     margin-top:2rem;
     padding:1.6rem;
@@ -266,12 +266,27 @@ main{
     border-radius:22px;
 }
 
+/* új blokk struktúra */
+.spec-block{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    margin-bottom:18px;
+}
+
+.spec-label{
+    font-size:0.7rem;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    opacity:0.45;
+}
+
+/* linkek rövidek, tiszták */
 .spec-link{
     display:inline-block;
-    margin-bottom:1.2rem;
     color:#d4af37;
     text-decoration:none;
-    font-size:0.95rem;
+    font-size:0.92rem;
     transition:opacity .25s ease;
 }
 
@@ -279,20 +294,16 @@ main{
     opacity:.7;
 }
 
-.hash-label{
-    font-size:.72rem;
-    letter-spacing:.22em;
-    text-transform:uppercase;
-    opacity:.45;
-    margin-bottom:.7rem;
-}
-
-.hash-value{
-    display:block;
-    font-size:.82rem;
-    line-height:1.9;
+/* hash fix */
+.hash{
+    font-size:0.78rem;
+    line-height:1.8;
     word-break:break-all;
-    color:rgba(255,255,255,0.72);
+    color:rgba(255,255,255,0.75);
+    font-family:monospace;
+    background:rgba(255,255,255,0.03);
+    padding:10px 12px;
+    border-radius:10px;
 }
 
 /* FOOTER */
@@ -410,4 +421,4 @@ footer p{
         grid-template-columns:1fr;
     }
 
-}
+    }
