@@ -217,7 +217,47 @@ main{
     font-size:1rem;
 }
 
-/* SPECIFICATION — EZ LETT JAVÍTVA */
+/* PRINCIPLES */
+.principles-grid{
+    margin-top:42px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:24px;
+}
+
+.principle-item{
+    padding:32px;
+    border-radius:26px;
+    background:rgba(255,255,255,0.025);
+    border:1px solid rgba(255,255,255,0.06);
+    transition:0.35s ease;
+}
+
+.principle-item:hover{
+    transform:translateY(-5px);
+    border-color:rgba(212,175,55,0.24);
+    background:rgba(255,255,255,0.04);
+}
+
+.principle-item span{
+    color:#d4af37;
+    font-size:0.8rem;
+    letter-spacing:0.22em;
+}
+
+.principle-item h3{
+    margin:16px 0 12px;
+    font-size:1.35rem;
+    font-weight:600;
+}
+
+.principle-item p{
+    font-size:0.95rem;
+    line-height:1.75;
+    color:#b5b5b5;
+}
+
+/* SPECIFICATION */
 .specification-box{
     margin-top:2rem;
     padding:1.6rem;
@@ -226,37 +266,33 @@ main{
     border-radius:22px;
 }
 
-.spec-block{
-    display:flex;
-    flex-direction:column;
-    gap:6px;
-    margin-bottom:18px;
-}
-
-.spec-label{
-    font-size:.72rem;
-    letter-spacing:.22em;
-    text-transform:uppercase;
-    opacity:.45;
-}
-
 .spec-link{
+    display:inline-block;
+    margin-bottom:1.2rem;
     color:#d4af37;
     text-decoration:none;
-    font-size:.95rem;
-    display:inline-block;
+    font-size:0.95rem;
+    transition:opacity .25s ease;
 }
 
 .spec-link:hover{
     opacity:.7;
 }
 
-.spec-block code{
+.hash-label{
+    font-size:.72rem;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    opacity:.45;
+    margin-bottom:.7rem;
+}
+
+.hash-value{
+    display:block;
     font-size:.82rem;
-    line-height:1.8;
+    line-height:1.9;
     word-break:break-all;
     color:rgba(255,255,255,0.72);
-    background:none;
 }
 
 /* FOOTER */
