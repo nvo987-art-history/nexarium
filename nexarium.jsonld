@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.nexarium.us/#organization",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "description": "Decentralized web infrastructure focused on identity, semantic systems, and digital continuity.",
+      "foundingDate": "2026-05-17",
+      "founder": {
+        "@id": "https://www.nexarium.us/#nicholas-van-orton"
+      },
+      "brand": {
+        "@id": "https://www.nvo987.us/#brand"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.nexarium.us/#nicholas-van-orton",
+      "name": "Nicholas Van-Orton",
+      "description": "Founder of NEXARIUM and creator of identity and semantic system frameworks.",
+      "worksFor": {
+        "@id": "https://www.nexarium.us/#organization"
+      }
+    },
+
+    {
+      "@type": "Brand",
+      "@id": "https://www.nvo987.us/#brand",
+      "name": "NVO987",
+      "description": "Research and identity systems brand focused on semantic architecture and visual culture."
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.nvo987.fr/#association",
+      "name": "NVO987 Association",
+      "description": "Cultural and research association focused on visual culture and semantic publication.",
+      "foundingDate": "2026-05-17",
+      "founder": {
+        "@id": "https://www.nexarium.us/#nicholas-van-orton"
+      }
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.kellycode.us/#project",
+      "name": "Kelly Code",
+      "description": "Identity framework exploring continuity, symbolic systems, and digital persistence.",
+      "dateCreated": "2026-05-17",
+      "dateModified": "2026-05-17",
+      "author": {
+        "@id": "https://www.nexarium.us/#nicholas-van-orton"
+      }
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.kellycode.us/#protocol",
+      "name": "Kelly Protocol",
+      "description": "Protocol for decentralized identity continuity and semantic interoperability.",
+      "dateCreated": "2026-05-17",
+      "dateModified": "2026-05-17",
+      "author": {
+        "@id": "https://www.nexarium.us/#nicholas-van-orton"
+      }
+    }
+
+  ]
+}
