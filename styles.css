@@ -356,11 +356,23 @@ footer p{
 @media(max-width:768px){
 
     .navbar{
-        padding:22px 6%;
+        padding:20px 5%;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:18px;
+    }
+
+    .logo{
+        font-size:1.9rem;
+        line-height:0.95;
+        letter-spacing:-0.02em;
     }
 
     nav{
-        gap:18px;
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        gap:14px;
     }
 
     nav a{
@@ -368,7 +380,7 @@ footer p{
     }
 
     .hero{
-        padding-top:150px;
+        padding-top:190px;
     }
 
     .hero h1{
@@ -398,4 +410,4 @@ footer p{
         grid-template-columns:1fr;
     }
 
-    }
+}
