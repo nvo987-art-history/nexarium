@@ -8,7 +8,7 @@
       "name": "NEXARIUM — Open Decentralized Web Infrastructure",
       "url": "https://www.nexarium.us",
       "description": "Decentralized web infrastructure focused on identity, semantic systems, and digital continuity across Web2 and Web3 environments.",
-      "foundingDate": "2026-05-17",
+      "foundingDate": "2026-05-19",
       "founder": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
       },
@@ -22,12 +22,7 @@
         "https://identity.nvo987.us",
         "https://culturevisuelle.metaverse",
         "https://culturevisuelle.satoshi"
-      ],
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "Schema Version",
-        "value": "2.0 (2026-05-19)"
-      }
+      ]
     },
 
     {
@@ -54,9 +49,12 @@
       "name": "NVO987 Association",
       "url": "https://www.nvo987.fr",
       "description": "Cultural and research association focused on visual culture and semantic publication.",
-      "foundingDate": "2026-05-17",
+      "foundingDate": "2026-05-19",
       "founder": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
+      },
+      "parentOrganization": {
+        "@id": "https://www.nexarium.us/#organization"
       }
     },
 
@@ -65,8 +63,7 @@
       "@id": "https://www.kellycode.us/#project",
       "name": "Kelly Code",
       "description": "Identity framework exploring continuity, symbolic systems, and digital persistence.",
-      "dateCreated": "2026-05-17",
-      "dateModified": "2026-05-19",
+      "dateCreated": "2026-05-19",
       "url": "https://www.kellycode.us",
       "author": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
@@ -78,8 +75,7 @@
       "@id": "https://www.kellycode.us/#protocol",
       "name": "Kelly Protocol",
       "description": "Protocol for decentralized identity continuity and semantic interoperability across distributed and Web3-based systems.",
-      "dateCreated": "2026-05-17",
-      "dateModified": "2026-05-19",
+      "dateCreated": "2026-05-19",
       "url": "https://www.kellycode.us",
       "author": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
@@ -88,10 +84,29 @@
 
     {
       "@type": "WebSite",
+      "@id": "https://identity.nvo987.us/#identity",
+      "url": "https://identity.nvo987.us",
+      "name": "NVO987 Identity Layer",
+      "description": "Decentralized identity endpoint supporting DID-based identity systems.",
+      "about": {
+        "@id": "https://www.nexarium.us/#organization"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "DID",
+        "value": "did:web:identity.nvo987.us"
+      }
+    },
+
+    {
+      "@type": "WebSite",
       "@id": "https://culturevisuelle.metaverse/#website",
       "url": "https://culturevisuelle.metaverse",
       "name": "Culture Visuelle Metaverse",
-      "description": "Web3 domain representing the cryptographic extension of the NEXARIUM ecosystem."
+      "description": "Web3 domain representing the cryptographic extension of the NEXARIUM ecosystem.",
+      "about": {
+        "@id": "https://www.nexarium.us/#organization"
+      }
     },
 
     {
@@ -99,19 +114,9 @@
       "@id": "https://culturevisuelle.satoshi/#website",
       "url": "https://culturevisuelle.satoshi",
       "name": "Culture Visuelle Satoshi",
-      "description": "Blockchain-based domain for decentralized identity anchoring and persistence within the NEXARIUM system."
-    },
-
-    {
-      "@type": "WebSite",
-      "@id": "https://identity.nvo987.us/#identity",
-      "url": "https://identity.nvo987.us",
-      "name": "NVO987 Identity Layer",
-      "description": "Decentralized identity endpoint supporting DID-based identity systems.",
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "DID",
-        "value": "did:web:identity.nvo987.us"
+      "description": "Blockchain-based domain for decentralized identity anchoring and persistence within the NEXARIUM system.",
+      "about": {
+        "@id": "https://www.nexarium.us/#organization"
       }
     }
 
