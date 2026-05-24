@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+
+  <Subject>https://www.nexarium.us</Subject>
+
+  <Link
+    rel="self"
+    href="https://www.nexarium.us/.well-known/host-meta"
+  />
+
+  <Link
+    rel="lrdd"
+    type="application/jrd+json"
+    template="https://www.nexarium.us/.well-known/webfinger?resource={uri}"
+  />
+
+</XRD>
