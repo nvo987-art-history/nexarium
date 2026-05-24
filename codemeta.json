@@ -1,0 +1,65 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "NEXARIUM",
+  "description": "Open decentralized web infrastructure focused on semantic systems, decentralized identity, institutional transparency, federated communication, machine-readable architecture, and long-term digital continuity across Web2 and Web3 environments.",
+  "codeRepository": "https://github.com/nexarium/nexarium",
+  "url": "https://www.nexarium.us",
+  "license": "https://opensource.org/licenses/MIT",
+  "version": "1.0.0",
+  "dateCreated": "2026-05-19",
+  "datePublished": "2026-05-19",
+  "keywords": [
+    "NEXARIUM",
+    "semantic web",
+    "linked data",
+    "JSON-LD",
+    "decentralized identity",
+    "DID",
+    "semantic systems",
+    "digital continuity",
+    "federated infrastructure",
+    "ActivityPub",
+    "Fediverse",
+    "Web3",
+    "OpenTimestamps",
+    "cryptographic infrastructure",
+    "institutional transparency",
+    "VALORIAX",
+    "NVO987",
+    "Kelly Code",
+    "Kelly Protocol"
+  ],
+  "author": {
+    "@type": "Person",
+    "givenName": "Nicholas",
+    "familyName": "Van-Orton"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "NEXARIUM",
+    "url": "https://www.nexarium.us"
+  },
+  "programmingLanguage": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "JSON-LD"
+  ],
+  "operatingSystem": "Web",
+  "applicationCategory": "Web Infrastructure",
+  "developmentStatus": "active",
+  "email": "contact@nexarium.us",
+  "funding": "Independent infrastructure and research environment",
+  "isAccessibleForFree": true,
+  "sameAs": [
+    "https://www.kellycode.us",
+    "https://www.nvo987.us",
+    "https://www.nvo987.fr",
+    "https://identity.nvo987.us",
+    "https://valoriax.nvo987.fr",
+    "https://fediverse.nvo987.us",
+    "https://culturevisuelle.metaverse",
+    "https://culturevisuelle.satoshi"
+  ]
+}
