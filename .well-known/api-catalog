@@ -1,0 +1,19 @@
+{
+  "name": "NEXARIUM",
+  "url": "https://www.nexarium.us",
+  "description": "Machine-readable infrastructure endpoints.",
+  "apis": [
+    {
+      "name": "Identity Infrastructure",
+      "url": "https://identity.nvo987.us"
+    },
+    {
+      "name": "Fediverse Infrastructure",
+      "url": "https://fediverse.nvo987.us"
+    },
+    {
+      "name": "VALORIAX",
+      "url": "https://valoriax.nvo987.fr"
+    }
+  ]
+}
