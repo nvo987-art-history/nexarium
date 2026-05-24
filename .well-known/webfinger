@@ -1,0 +1,13 @@
+{
+  "subject": "acct:contact@nexarium.us",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://www.nexarium.us"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://identity.nvo987.us"
+    }
+  ]
+}
