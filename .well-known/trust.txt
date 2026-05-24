@@ -1,0 +1,6 @@
+subject = NEXARIUM
+site = https://www.nexarium.us
+identity = did:web:identity.nvo987.us
+contact = mailto:contact@nexarium.us
+organization = NVO987
+updated = 2026-05-24
