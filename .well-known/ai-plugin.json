@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "NEXARIUM",
+  "name_for_model": "nexarium",
+  "description_for_human": "Open decentralized semantic infrastructure.",
+  "description_for_model": "Semantic identity and decentralized infrastructure system.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.nexarium.us/openapi.yaml"
+  },
+  "logo_url": "https://www.nexarium.us/avatar.jpg",
+  "contact_email": "contact@nexarium.us",
+  "legal_info_url": "https://www.nexarium.us"
+}
