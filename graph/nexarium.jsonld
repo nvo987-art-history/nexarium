@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "did": "https://www.w3.org/ns/did#",
+    "void": "http://rdfs.org/ns/void#",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+
+  "@type": "Organization",
+
+  "@id": "https://www.nexarium.us/#organization",
+
+  "name": "NEXARIUM",
+
+  "url": "https://www.nexarium.us",
+
+  "identifier": "did:web:identity.nvo987.us",
+
+  "description": "Open decentralized web infrastructure focused on semantic systems, decentralized identity, machine-readable architecture, interoperability, and long-term digital persistence.",
+
+  "sameAs": [
+    "https://identity.nvo987.us",
+    "https://www.nvo987.us",
+    "https://www.kellycode.us",
+    "https://fediverse.nvo987.us",
+    "https://valoriax.nvo987.fr"
+  ],
+
+  "foundingDate": "2026-05-24",
+
+  "knowsAbout": [
+    "Semantic Web",
+    "Linked Data",
+    "Decentralized Identity",
+    "Knowledge Graphs",
+    "Fediverse",
+    "ActivityPub",
+    "Digital Persistence",
+    "Machine-Readable Systems",
+    "Open Infrastructure"
+  ],
+
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "NEXARIUM Semantic Dataset",
+    "url": "https://www.nexarium.us/nexarium.jsonld"
+  }
+}
