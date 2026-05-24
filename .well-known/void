@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "void": "http://rdfs.org/ns/void#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@type": "void:Dataset",
+  "dcterms:title": "NEXARIUM Semantic Infrastructure",
+  "dcterms:publisher": "NEXARIUM",
+  "dcterms:created": "2026-05-24",
+  "dcterms:identifier": "did:web:identity.nvo987.us",
+  "void:uriSpace": "https://www.nexarium.us/"
+}
