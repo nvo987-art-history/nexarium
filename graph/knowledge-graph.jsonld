@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "did": "https://www.w3.org/ns/did#"
+  },
+
+  "@graph": [
+
+    {
+      "@id": "https://www.nexarium.us/#nexarium",
+      "@type": "Organization",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "identifier": "did:web:identity.nvo987.us"
+    },
+
+    {
+      "@id": "https://identity.nvo987.us/#identity",
+      "@type": "DigitalDocument",
+      "name": "NEXARIUM Identity Infrastructure",
+      "url": "https://identity.nvo987.us"
+    },
+
+    {
+      "@id": "https://www.kellycode.us/#kellycode",
+      "@type": "CreativeWork",
+      "name": "Kelly Code",
+      "url": "https://www.kellycode.us"
+    },
+
+    {
+      "@id": "https://fediverse.nvo987.us/#fediverse",
+      "@type": "WebSite",
+      "name": "NEXARIUM Fediverse Infrastructure",
+      "url": "https://fediverse.nvo987.us"
+    },
+
+    {
+      "@id": "https://valoriax.nvo987.fr/#valoriax",
+      "@type": "Project",
+      "name": "VALORIAX",
+      "url": "https://valoriax.nvo987.fr"
+    }
+
+  ]
+}
