@@ -8,7 +8,7 @@
       "name": "NEXARIUM — Open Decentralized Web Infrastructure",
       "url": "https://www.nexarium.us",
       "description": "Decentralized web infrastructure focused on identity, semantic systems, and digital continuity across Web2 and Web3 environments.",
-      "foundingDate": "2026-05-19",
+      "foundingDate": "2026-05-24",
       "founder": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
       },
@@ -20,6 +20,8 @@
         "https://www.nvo987.us",
         "https://www.nvo987.fr",
         "https://identity.nvo987.us",
+        "https://valoriax.nvo987.fr",
+        "https://fediverse.nvo987.us",
         "https://culturevisuelle.metaverse",
         "https://culturevisuelle.satoshi"
       ]
@@ -32,7 +34,14 @@
       "description": "Founder of NEXARIUM and creator of identity and semantic system frameworks.",
       "worksFor": {
         "@id": "https://www.nexarium.us/#organization"
-      }
+      },
+      "knowsAbout": [
+        "Semantic Systems",
+        "Decentralized Identity",
+        "Digital Continuity",
+        "Linked Data",
+        "Federated Infrastructure"
+      ]
     },
 
     {
@@ -49,7 +58,7 @@
       "name": "NVO987 Association",
       "url": "https://www.nvo987.fr",
       "description": "Cultural and research association focused on visual culture and semantic publication.",
-      "foundingDate": "2026-05-19",
+      "foundingDate": "2026-05-24",
       "founder": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
       },
@@ -63,7 +72,7 @@
       "@id": "https://www.kellycode.us/#project",
       "name": "Kelly Code",
       "description": "Identity framework exploring continuity, symbolic systems, and digital persistence.",
-      "dateCreated": "2026-05-19",
+      "dateCreated": "2026-05-24",
       "url": "https://www.kellycode.us",
       "author": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
@@ -75,7 +84,7 @@
       "@id": "https://www.kellycode.us/#protocol",
       "name": "Kelly Protocol",
       "description": "Protocol for decentralized identity continuity and semantic interoperability across distributed and Web3-based systems.",
-      "dateCreated": "2026-05-19",
+      "dateCreated": "2026-05-24",
       "url": "https://www.kellycode.us",
       "author": {
         "@id": "https://www.nexarium.us/#nicholas-van-orton"
@@ -95,6 +104,28 @@
         "@type": "PropertyValue",
         "name": "DID",
         "value": "did:web:identity.nvo987.us"
+      }
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://valoriax.nvo987.fr/#website",
+      "url": "https://valoriax.nvo987.fr",
+      "name": "VALORIAX",
+      "description": "Institutional transparency infrastructure supporting the financial transparency, public accountability, and long-term integrity of the NVO987 association.",
+      "about": {
+        "@id": "https://www.nvo987.fr/#association"
+      }
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://fediverse.nvo987.us/#website",
+      "url": "https://fediverse.nvo987.us",
+      "name": "NEXARIUM Fediverse Infrastructure",
+      "description": "Federated social infrastructure connected to the NEXARIUM ecosystem through decentralized communication and ActivityPub-compatible technologies.",
+      "about": {
+        "@id": "https://www.nexarium.us/#organization"
       }
     },
 
