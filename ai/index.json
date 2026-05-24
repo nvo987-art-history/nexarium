@@ -1,0 +1,9 @@
+{
+  "files": [
+    "/ai/manifest.json",
+    "/ai/identity.json",
+    "/ai/knowledge-graph.jsonld",
+    "/ai/agents.json",
+    "/ai/trust.json"
+  ]
+}
