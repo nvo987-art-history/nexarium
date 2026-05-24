@@ -1,0 +1,6 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "https://www.nexarium.us/nexarium.jsonld",
+  "dc:title": "NEXARIUM Structured Data",
+  "dc:description": "Machine-readable semantic infrastructure data."
+}
