@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "name": "NEXARIUM Semantic Knowledge Graph",
+  "identifier": "did:web:identity.nvo987.us"
+}
