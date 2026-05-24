@@ -1,0 +1,2 @@
+Contact: mailto:contact@nexarium.us
+Canonical: https://www.nexarium.us/.well-known/security.txt
