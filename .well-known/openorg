@@ -1,0 +1,8 @@
+{
+  "name": "NEXARIUM",
+  "organization": "NVO987",
+  "website": "https://www.nexarium.us",
+  "identity": "did:web:identity.nvo987.us",
+  "contact": "mailto:contact@nexarium.us",
+  "type": "Decentralized Web Infrastructure"
+}
