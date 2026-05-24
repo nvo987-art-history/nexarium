@@ -1,0 +1,9 @@
+# ads.txt
+
+# NEXARIUM
+# Open Decentralized Web Infrastructure
+
+# This domain currently does not authorize third-party advertising networks.
+
+# Contact:
+contact@nexarium.us
