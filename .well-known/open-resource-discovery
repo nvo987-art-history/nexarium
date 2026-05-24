@@ -1,0 +1,9 @@
+{
+  "subject": "https://www.nexarium.us",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://www.nexarium.us"
+    }
+  ]
+}
