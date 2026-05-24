@@ -1,0 +1,9 @@
+{
+  "did": "did:web:identity.nvo987.us",
+  "organization": "NEXARIUM",
+  "associated": [
+    "https://www.nvo987.us",
+    "https://identity.nvo987.us",
+    "https://www.kellycode.us"
+  ]
+}
