@@ -1,0 +1,9 @@
+{
+  "agents": [
+    {
+      "name": "NEXARIUM Semantic Agent",
+      "type": "knowledge-system",
+      "endpoint": "https://www.nexarium.us/ai/"
+    }
+  ]
+}
