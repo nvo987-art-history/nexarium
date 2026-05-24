@@ -1,0 +1,14 @@
+{
+  "subject": "https://www.nexarium.us",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://www.nexarium.us/.well-known/host-meta.json"
+    },
+    {
+      "rel": "lrdd",
+      "type": "application/jrd+json",
+      "template": "https://www.nexarium.us/.well-known/webfinger?resource={uri}"
+    }
+  ]
+}
