@@ -1,0 +1,88 @@
+# NEXARIUM
+
+> Open Decentralized Web Infrastructure
+
+## Overview
+
+NEXARIUM is a decentralized and interoperable digital ecosystem focused on:
+
+- Semantic Systems
+- Decentralized Identity
+- Identity Continuity
+- Linked Data
+- Machine-Readable Infrastructure
+- Institutional Transparency
+- Federated Communication
+- Verification Infrastructure
+- Long-Term Digital Persistence
+- Web3 Continuity Systems
+
+## Core Infrastructure
+
+- https://www.nexarium.us
+- https://www.nvo987.us
+- https://www.nvo987.fr
+- https://identity.nvo987.us
+- https://valoriax.nvo987.fr
+- https://fediverse.nvo987.us
+- https://www.kellycode.us
+
+## Infrastructure Layers
+
+### Identity Infrastructure
+
+Decentralized identity systems based on semantic interoperability,
+DID-compatible structures,
+and continuity-oriented identity architecture.
+
+### VALORIAX
+
+Institutional transparency infrastructure supporting
+the financial transparency,
+public accountability,
+and long-term integrity
+of the NVO987 association.
+
+### Fediverse Infrastructure
+
+Federated communication infrastructure connected
+through ActivityPub-compatible technologies
+including Mastodon and Misskey environments.
+
+### Cryptographic Infrastructure
+
+Parallel Web3 continuity infrastructure supporting
+blockchain-based persistence,
+verification,
+and decentralized identity anchoring.
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- JSON-LD
+- Schema.org
+- Linked Data
+- DID
+- ActivityPub
+- OpenTimestamps
+- SHA-256
+- Web3 Infrastructure
+
+## Ecosystem
+
+- NEXARIUM
+- NVO987
+- VALORIAX
+- Kelly Code
+- Kelly Protocol
+- Fediverse Infrastructure
+
+## Founder
+
+Nicholas Van-Orton
+
+## Contact
+
+contact@nexarium.us
