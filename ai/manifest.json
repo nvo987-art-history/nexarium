@@ -1,0 +1,11 @@
+{
+  "name": "NEXARIUM AI Infrastructure",
+  "identity": "did:web:identity.nvo987.us",
+  "semantic_layer": true,
+  "machine_readable": true,
+  "federated": true,
+  "verification": {
+    "sha256": true,
+    "opentimestamps": true
+  }
+}
