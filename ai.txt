@@ -1,0 +1,26 @@
+# AI Discovery File
+# https://www.nexarium.us/ai.txt
+
+name: NEXARIUM
+description: Open decentralized semantic infrastructure
+url: https://www.nexarium.us
+did: did:web:identity.nvo987.us
+contact: contact@nexarium.us
+
+ai-manifest: https://www.nexarium.us/ai/manifest.json
+ai-index: https://www.nexarium.us/ai/index.json
+knowledge-graph: https://www.nexarium.us/ai/knowledge-graph.jsonld
+
+webfinger: https://www.nexarium.us/.well-known/webfinger
+openid: https://www.nexarium.us/.well-known/openid-configuration
+did-document: https://www.nexarium.us/.well-known/did.json
+
+fediverse: https://fediverse.nvo987.us
+identity: https://identity.nvo987.us
+kellycode: https://www.kellycode.us
+
+machine-readable: true
+semantic-web: true
+decentralized-identity: true
+federated: true
+verification: OpenTimestamps,SHA-256
