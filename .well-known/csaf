@@ -1,0 +1,12 @@
+{
+  "provider_metadata": {
+    "title": "NEXARIUM",
+    "category": "research",
+    "csaf_version": "2.0",
+    "publisher": {
+      "name": "NEXARIUM",
+      "namespace": "https://www.nexarium.us",
+      "contact_details": "contact@nexarium.us"
+    }
+  }
+} 
