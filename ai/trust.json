@@ -1,0 +1,9 @@
+{
+  "organization": "NEXARIUM",
+  "verification": [
+    "OpenTimestamps",
+    "SHA-256"
+  ],
+  "identity": "did:web:identity.nvo987.us",
+  "updated": "2026-05-24"
+}
