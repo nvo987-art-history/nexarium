@@ -1,0 +1,6 @@
+==================================================================
+https://www.nexarium.us
+NEXARIUM verification endpoint
+Contact: contact@nexarium.us
+Identity: did:web:identity.nvo987.us
+==================================================================
