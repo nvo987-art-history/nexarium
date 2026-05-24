@@ -1,0 +1,46 @@
+/* TEAM */
+
+Organization: NEXARIUM
+Infrastructure: Open Decentralized Web Infrastructure
+
+Founder: Nicholas Van-Orton
+
+Site: https://www.nexarium.us
+Identity Infrastructure: https://identity.nvo987.us
+Institutional Infrastructure: https://www.nvo987.fr
+Transparency Infrastructure: https://valoriax.nvo987.fr
+Fediverse Infrastructure: https://fediverse.nvo987.us
+Protocol Infrastructure: https://www.kellycode.us
+
+Contact: contact@nexarium.us
+
+Technology:
+HTML5
+CSS3
+JavaScript
+JSON-LD
+Schema.org
+Linked Data
+DID
+ActivityPub
+OpenTimestamps
+SHA-256
+Web3 Infrastructure
+
+/* ECOSYSTEM */
+
+NEXARIUM
+NVO987
+VALORIAX
+Kelly Code
+Kelly Protocol
+Fediverse Infrastructure
+
+/* DESCRIPTION */
+
+Open decentralized infrastructure focused on semantic systems,
+identity continuity, interoperability,
+institutional transparency,
+federated communication,
+and long-term digital persistence
+across Web2 and Web3 environments.
