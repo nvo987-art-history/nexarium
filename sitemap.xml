@@ -46,16 +46,4 @@
     <changefreq>monthly</changefreq>
   </url>
 
-  <url>
-    <loc>https://culturevisuelle.metaverse/</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://culturevisuelle.satoshi/</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
 </urlset>
