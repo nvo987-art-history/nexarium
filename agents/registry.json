@@ -1,0 +1,24 @@
+{
+  "registry": "NEXARIUM Agent Registry",
+  "version": "1.0",
+  "agents": [
+    {
+      "id": "nvo987-ai",
+      "type": "semantic-ai-agent",
+      "endpoint": "https://nvo987.ai.in",
+      "status": "active"
+    },
+    {
+      "id": "identity-agent",
+      "type": "identity-verification-agent",
+      "endpoint": "https://identity.nvo987.us",
+      "status": "active"
+    },
+    {
+      "id": "graph-agent",
+      "type": "knowledge-graph-agent",
+      "endpoint": "https://www.nexarium.us/graph",
+      "status": "active"
+    }
+  ]
+}
