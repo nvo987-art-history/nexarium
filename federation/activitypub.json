@@ -1,0 +1,13 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams"
+  ],
+  "id": "https://fediverse.nvo987.us/activitypub.json",
+  "type": "Service",
+  "name": "NEXARIUM Federation Service",
+  "preferredUsername": "nexarium",
+  "inbox": "https://fediverse.nvo987.us/inbox",
+  "outbox": "https://fediverse.nvo987.us/outbox",
+  "followers": "https://fediverse.nvo987.us/followers",
+  "following": "https://fediverse.nvo987.us/following"
+}
