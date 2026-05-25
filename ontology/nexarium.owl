@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.nexarium.us/ontology#"
+     xml:base="https://www.nexarium.us/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+    <owl:Ontology rdf:about="https://www.nexarium.us/ontology">
+        <rdfs:label>NEXARIUM Ontology</rdfs:label>
+        <rdfs:comment>
+            Semantic ontology describing decentralized identity,
+            verification systems, AI-native infrastructure,
+            and knowledge graph architecture.
+        </rdfs:comment>
+    </owl:Ontology>
+
+    <owl:Class rdf:about="#Nexarium"/>
+    <owl:Class rdf:about="#IdentityLayer"/>
+    <owl:Class rdf:about="#KnowledgeGraph"/>
+    <owl:Class rdf:about="#VerificationLayer"/>
+    <owl:Class rdf:about="#AINativeInfrastructure"/>
+    <owl:Class rdf:about="#CryptographicInfrastructure"/>
+    <owl:Class rdf:about="#ResearchInfrastructure"/>
+
+    <owl:ObjectProperty rdf:about="#hasIdentity"/>
+    <owl:ObjectProperty rdf:about="#hasKnowledgeGraph"/>
+    <owl:ObjectProperty rdf:about="#hasVerificationLayer"/>
+    <owl:ObjectProperty rdf:about="#hasAIInfrastructure"/>
+    <owl:ObjectProperty rdf:about="#hasCryptographicLayer"/>
+    <owl:ObjectProperty rdf:about="#hasResearchInfrastructure"/>
+
+</rdf:RDF>
