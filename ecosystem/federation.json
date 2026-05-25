@@ -1,0 +1,29 @@
+{
+  "ecosystem": "NEXARIUM",
+  "federation": "active",
+  "version": "1.0",
+  "primary_domain": "https://www.nexarium.us",
+  "connected_domains": [
+    {
+      "domain": "https://www.nvo987.fr",
+      "role": "Cultural and Research Association",
+      "organization": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+      "relationship": "institutional-member"
+    },
+    {
+      "domain": "https://www.nvo987.us",
+      "role": "Identity and Publication Infrastructure",
+      "relationship": "semantic-node"
+    },
+    {
+      "domain": "https://identity.nvo987.us",
+      "role": "Decentralized Identity Infrastructure",
+      "relationship": "identity-provider"
+    },
+    {
+      "domain": "https://fediverse.nvo987.us",
+      "role": "Federated Communication Infrastructure",
+      "relationship": "federation-node"
+    }
+  ]
+}
