@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "nex": "https://www.nexarium.us/ontology#"
+  },
+  "@graph": [
+    {
+      "@type": "schema:Organization",
+      "@id": "https://www.nexarium.us",
+      "schema:name": "NEXARIUM",
+      "schema:url": "https://www.nexarium.us",
+      "schema:description": "Open decentralized web infrastructure ecosystem.",
+      "schema:founder": {
+        "@type": "schema:Person",
+        "name": "Nicholas Van-Orton"
+      },
+      "nex:identityLayer": {
+        "@id": "https://identity.nvo987.us"
+      },
+      "nex:knowledgeGraph": {
+        "@id": "https://www.nexarium.us/graph"
+      },
+      "nex:verificationLayer": {
+        "@id": "https://sha256.nvo987.us"
+      },
+      "nex:aiInfrastructure": {
+        "@id": "https://nvo987.ai.in"
+      },
+      "nex:researchInfrastructure": {
+        "@id": "https://lab.nvo987.us"
+      }
+    }
+  ]
+}
