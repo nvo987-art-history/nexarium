@@ -724,6 +724,18 @@ footer p{
 
 @media(max-width:768px){
 
+    /* GPU + RENDER FIX */
+
+    .navbar,
+    .glass-card,
+    .contact-panel,
+    .spec-link{
+        transform:translateZ(0);
+
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+    }
+
     .navbar{
         padding:20px 5%;
 
@@ -734,8 +746,8 @@ footer p{
 
         background:rgba(5,5,5,0.88);
 
-        backdrop-filter:blur(14px);
-        -webkit-backdrop-filter:blur(14px);
+        backdrop-filter:blur(10px);
+        -webkit-backdrop-filter:blur(10px);
     }
 
     .logo{
@@ -800,8 +812,8 @@ footer p{
 
         border-radius:28px;
 
-        backdrop-filter:blur(12px);
-        -webkit-backdrop-filter:blur(12px);
+        backdrop-filter:blur(10px);
+        -webkit-backdrop-filter:blur(10px);
     }
 
     .glass-card:hover{
@@ -850,6 +862,9 @@ footer p{
         padding:36px 24px;
 
         border-radius:28px;
+
+        backdrop-filter:blur(10px);
+        -webkit-backdrop-filter:blur(10px);
     }
 
     .contact-panel h2{
@@ -864,4 +879,4 @@ footer p{
         padding:70px 5%;
     }
 
-                         }
+}
