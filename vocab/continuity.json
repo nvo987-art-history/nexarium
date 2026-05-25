@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "ContinuitySystem": "https://www.nexarium.us/vocab#ContinuitySystem",
+    "Persistence": "https://www.nexarium.us/vocab#Persistence",
+    "DigitalContinuity": "https://www.nexarium.us/vocab#DigitalContinuity",
+    "CryptographicAnchor": "https://www.nexarium.us/vocab#CryptographicAnchor",
+    "KnowledgePersistence": "https://www.nexarium.us/vocab#KnowledgePersistence"
+  },
+  "id": "https://www.nexarium.us/vocab/continuity.json",
+  "type": "ContinuitySystem",
+  "name": "NEXARIUM Continuity Vocabulary",
+  "description": "Vocabulary describing persistence, continuity infrastructure, and cryptographic archival systems.",
+  "terms": [
+    {
+      "term": "Persistence",
+      "description": "Long-term digital persistence."
+    },
+    {
+      "term": "DigitalContinuity",
+      "description": "Structured continuity across evolving systems."
+    },
+    {
+      "term": "CryptographicAnchor",
+      "description": "Blockchain or timestamp verification anchor."
+    },
+    {
+      "term": "KnowledgePersistence",
+      "description": "Persistent semantic knowledge architecture."
+    }
+  ]
+}
