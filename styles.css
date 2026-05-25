@@ -741,9 +741,18 @@ footer p{
         font-size:0.82rem;
     }
 
+    /* EZ VOLT A HIBA */
     .hero{
-        padding:
-            190px 5% 100px;
+        min-height:auto;
+        height:auto;
+
+        padding:190px 5% 40px;
+
+        display:block;
+    }
+
+    .hero-content{
+        max-width:100%;
     }
 
     .hero h1{
@@ -762,6 +771,8 @@ footer p{
         align-items:flex-start;
 
         width:100%;
+
+        margin-top:32px;
     }
 
     .btn{
@@ -800,4 +811,4 @@ footer p{
         gap:18px;
     }
 
-        }
+}
