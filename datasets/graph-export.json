@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.nexarium.us",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us"
+    },
+    {
+      "@type": "Person",
+      "@id": "did:web:identity.nvo987.us",
+      "name": "Nicholas Van-Orton",
+      "alternateName": "NVO987"
+    },
+    {
+      "@type": "ResearchProject",
+      "name": "Kelly Protocol",
+      "url": "https://www.kellycode.us"
+    },
+    {
+      "@type": "WebSite",
+      "name": "NVO987 AI",
+      "url": "https://nvo987.ai.in"
+    }
+  ]
+}
