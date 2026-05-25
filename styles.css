@@ -32,8 +32,12 @@ body{
     font-family:'Inter', sans-serif;
     background:var(--bg);
     color:var(--text);
+
     overflow-x:hidden;
+
     min-height:100vh;
+    min-height:100svh;
+
     position:relative;
 
     -webkit-font-smoothing:antialiased;
@@ -44,6 +48,7 @@ body{
 
 .background-glow{
     position:fixed;
+
     width:700px;
     height:700px;
 
@@ -58,13 +63,20 @@ body{
     right:-200px;
 
     z-index:-1;
+
     pointer-events:none;
 }
 
 /* NAVBAR */
 
 .navbar{
-    width:100%;
+    position:fixed;
+
+    top:0;
+    left:0;
+    right:0;
+
+    width:auto;
 
     display:flex;
     justify-content:space-between;
@@ -72,14 +84,10 @@ body{
 
     padding:28px 7%;
 
-    position:fixed;
-    top:0;
-    left:0;
+    background:rgba(5,5,5,0.62);
 
     backdrop-filter:blur(18px);
     -webkit-backdrop-filter:blur(18px);
-
-    background:rgba(5,5,5,0.62);
 
     border-bottom:1px solid rgba(255,255,255,0.05);
 
@@ -88,17 +96,25 @@ body{
 
 .logo{
     font-family:'Cormorant Garamond', serif;
+
     font-size:2.1rem;
+
     color:var(--gold);
 
     letter-spacing:0.02em;
 
+    line-height:1;
+
     text-decoration:none;
+
+    flex-shrink:0;
 }
 
 nav{
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
+
     gap:34px;
 }
 
@@ -106,10 +122,14 @@ nav a{
     position:relative;
 
     color:#cfcfcf;
+
     text-decoration:none;
 
     font-size:0.92rem;
+
     letter-spacing:0.03em;
+
+    white-space:nowrap;
 
     transition:
         color .3s ease,
@@ -144,17 +164,19 @@ nav a:hover::after{
 
 .hero{
     min-height:100vh;
+    min-height:100svh;
 
     display:flex;
     align-items:center;
     justify-content:center;
 
-    padding:150px 7% 110px;
+    padding:170px 7% 110px;
 
     position:relative;
 }
 
 .hero-content{
+    width:100%;
     max-width:940px;
 }
 
@@ -178,7 +200,10 @@ nav a:hover::after{
     margin:28px 0;
 
     font-weight:700;
+
     letter-spacing:-0.04em;
+
+    text-wrap:balance;
 }
 
 .hero p{
@@ -187,11 +212,14 @@ nav a:hover::after{
     color:var(--text-soft);
 
     font-size:1.08rem;
+
     line-height:2;
 }
 
 .hero-buttons{
     display:flex;
+    flex-wrap:wrap;
+
     gap:18px;
 
     margin-top:52px;
@@ -220,10 +248,13 @@ nav a:hover::after{
         box-shadow .35s ease;
 
     border:1px solid transparent;
+
+    will-change:transform;
 }
 
 .primary{
     background:var(--gold);
+
     color:#111;
 
     font-weight:600;
@@ -247,6 +278,7 @@ nav a:hover::after{
     border:1px solid rgba(255,255,255,0.12);
 
     backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
 }
 
 .secondary:hover{
@@ -266,8 +298,10 @@ main{
 
     display:flex;
     flex-direction:column;
+
     gap:42px;
 
+    padding-top:10px;
     padding-bottom:130px;
 }
 
@@ -289,6 +323,8 @@ main{
 
     overflow:hidden;
 
+    transform:translateZ(0);
+
     transition:
         transform .45s ease,
         border-color .45s ease,
@@ -302,6 +338,7 @@ main{
     content:'';
 
     position:absolute;
+
     inset:0;
 
     background:
@@ -476,7 +513,8 @@ main{
 
     line-height:1.9;
 
-    word-break:break-all;
+    word-break:break-word;
+    overflow-wrap:anywhere;
 
     color:rgba(255,255,255,0.72);
 }
@@ -511,6 +549,7 @@ main{
         );
 
     backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
 
     transition:
         transform .25s ease,
@@ -554,6 +593,7 @@ main{
     border:1px solid rgba(212,175,55,0.12);
 
     backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
 }
 
 .contact-panel h2{
@@ -691,6 +731,11 @@ footer p{
         align-items:flex-start;
 
         gap:18px;
+
+        background:rgba(5,5,5,0.88);
+
+        backdrop-filter:blur(14px);
+        -webkit-backdrop-filter:blur(14px);
     }
 
     .logo{
@@ -704,9 +749,6 @@ footer p{
     nav{
         width:100%;
 
-        display:flex;
-        flex-wrap:wrap;
-
         gap:14px;
     }
 
@@ -715,11 +757,14 @@ footer p{
     }
 
     .hero{
-        padding:
-            190px 5% 100px;
+        min-height:auto;
+
+        padding:190px 5% 90px;
     }
 
     .hero h1{
+        font-size:clamp(3.2rem, 14vw, 5rem);
+
         line-height:0.98;
     }
 
@@ -732,7 +777,7 @@ footer p{
     .hero-buttons{
         flex-direction:column;
 
-        align-items:flex-start;
+        align-items:stretch;
 
         width:100%;
     }
@@ -741,10 +786,26 @@ footer p{
         width:100%;
     }
 
+    main{
+        width:min(100%, 94%);
+
+        gap:28px;
+
+        padding-top:0;
+        padding-bottom:100px;
+    }
+
     .glass-card{
-        padding:38px 26px;
+        padding:38px 24px;
 
         border-radius:28px;
+
+        backdrop-filter:blur(12px);
+        -webkit-backdrop-filter:blur(12px);
+    }
+
+    .glass-card:hover{
+        transform:none;
     }
 
     .glass-card h2{
@@ -755,14 +816,40 @@ footer p{
 
     .glass-card p{
         font-size:0.98rem;
+
+        line-height:1.9;
     }
 
     .principles-grid{
         grid-template-columns:1fr;
+
+        gap:18px;
+    }
+
+    .principle-item{
+        padding:28px 24px;
+    }
+
+    .principle-item:hover{
+        transform:none;
+    }
+
+    .specification-box{
+        padding:1.4rem;
+    }
+
+    .spec-link{
+        width:100%;
+
+        justify-content:center;
+
+        text-align:center;
     }
 
     .contact-panel{
-        padding:36px 26px;
+        padding:36px 24px;
+
+        border-radius:28px;
     }
 
     .contact-panel h2{
@@ -773,4 +860,8 @@ footer p{
         gap:18px;
     }
 
+    footer{
+        padding:70px 5%;
     }
+
+                         }
