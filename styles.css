@@ -36,7 +36,6 @@ body{
     overflow-x:hidden;
 
     min-height:100vh;
-    min-height:100svh;
 
     position:relative;
 
@@ -163,9 +162,6 @@ nav a:hover::after{
 /* HERO */
 
 .hero{
-    min-height:100vh;
-    min-height:100svh;
-
     display:flex;
     align-items:center;
     justify-content:center;
@@ -768,10 +764,14 @@ footer p{
         font-size:0.82rem;
     }
 
+    /* FIXED HERO */
+
     .hero{
         min-height:auto;
 
-        padding:190px 5% 90px;
+        padding:120px 5% 60px;
+
+        align-items:flex-start;
     }
 
     .hero h1{
