@@ -1,0 +1,88 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix nex: <https://www.nexarium.us/ontology#> .
+
+<https://www.nexarium.us/ontology>
+    rdf:type owl:Ontology ;
+    rdfs:label "NEXARIUM Ontology" ;
+    rdfs:comment "Ontology for decentralized semantic infrastructure, identity continuity, AI-native systems, and cryptographic verification." .
+
+nex:Nexarium
+    rdf:type owl:Class ;
+    rdfs:label "NEXARIUM Ecosystem" ;
+    rdfs:comment "Open decentralized infrastructure ecosystem." .
+
+nex:IdentityLayer
+    rdf:type owl:Class ;
+    rdfs:label "Identity Layer" .
+
+nex:KnowledgeGraph
+    rdf:type owl:Class ;
+    rdfs:label "Knowledge Graph" .
+
+nex:VerificationLayer
+    rdf:type owl:Class ;
+    rdfs:label "Verification Infrastructure" .
+
+nex:AINativeInfrastructure
+    rdf:type owl:Class ;
+    rdfs:label "AI-Native Infrastructure" .
+
+nex:CryptographicInfrastructure
+    rdf:type owl:Class ;
+    rdfs:label "Cryptographic Infrastructure" .
+
+nex:ResearchInfrastructure
+    rdf:type owl:Class ;
+    rdfs:label "Research Infrastructure" .
+
+nex:hasIdentity
+    rdf:type owl:ObjectProperty ;
+    rdfs:domain nex:Nexarium ;
+    rdfs:range nex:IdentityLayer ;
+    rdfs:label "has identity layer" .
+
+nex:hasKnowledgeGraph
+    rdf:type owl:ObjectProperty ;
+    rdfs:domain nex:Nexarium ;
+    rdfs:range nex:KnowledgeGraph ;
+    rdfs:label "has knowledge graph" .
+
+nex:hasVerificationLayer
+    rdf:type owl:ObjectProperty ;
+    rdfs:domain nex:Nexarium ;
+    rdfs:range nex:VerificationLayer ;
+    rdfs:label "has verification layer" .
+
+nex:hasAIInfrastructure
+    rdf:type owl:ObjectProperty ;
+    rdfs:domain nex:Nexarium ;
+    rdfs:range nex:AINativeInfrastructure ;
+    rdfs:label "has AI infrastructure" .
+
+nex:hasCryptographicLayer
+    rdf:type owl:ObjectProperty ;
+    rdfs:domain nex:Nexarium ;
+    rdfs:range nex:CryptographicInfrastructure ;
+    rdfs:label "has cryptographic layer" .
+
+nex:hasResearchInfrastructure
+    rdf:type owl:ObjectProperty ;
+    rdfs:domain nex:Nexarium ;
+    rdfs:range nex:ResearchInfrastructure ;
+    rdfs:label "has research infrastructure" .
+
+<https://www.nexarium.us>
+    rdf:type nex:Nexarium ;
+    schema:name "NEXARIUM" ;
+    schema:url "https://www.nexarium.us" ;
+    schema:founder "Nicholas Van-Orton" ;
+    nex:hasIdentity <https://identity.nvo987.us> ;
+    nex:hasKnowledgeGraph <https://www.nexarium.us/graph> ;
+    nex:hasVerificationLayer <https://sha256.nvo987.us> ;
+    nex:hasAIInfrastructure <https://nvo987.ai.in> ;
+    nex:hasCryptographicLayer <https://www.nexarium.us/web3> ;
+    nex:hasResearchInfrastructure <https://lab.nvo987.us> .
