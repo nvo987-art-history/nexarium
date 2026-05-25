@@ -1,0 +1,29 @@
+{
+  "semantic_links": [
+    {
+      "source": "https://www.nexarium.us",
+      "target": "https://www.nvo987.fr",
+      "relation": "institutional-association"
+    },
+    {
+      "source": "https://www.nexarium.us",
+      "target": "https://identity.nvo987.us",
+      "relation": "identity-layer"
+    },
+    {
+      "source": "https://www.nexarium.us",
+      "target": "https://fediverse.nvo987.us",
+      "relation": "federated-node"
+    },
+    {
+      "source": "https://www.nvo987.fr",
+      "target": "https://valoriax.nvo987.fr",
+      "relation": "transparency-system"
+    },
+    {
+      "source": "https://www.nvo987.us",
+      "target": "https://www.kellycode.us",
+      "relation": "research-protocol"
+    }
+  ]
+}
