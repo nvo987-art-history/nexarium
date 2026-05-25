@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "Identity": "https://www.nexarium.us/vocab#Identity",
+    "DecentralizedIdentity": "https://www.nexarium.us/vocab#DecentralizedIdentity",
+    "SemanticIdentity": "https://www.nexarium.us/vocab#SemanticIdentity",
+    "VerificationLayer": "https://www.nexarium.us/vocab#VerificationLayer",
+    "Continuity": "https://www.nexarium.us/vocab#Continuity",
+    "did": "https://www.w3.org/ns/did#",
+    "schema": "https://schema.org/"
+  },
+  "id": "https://www.nexarium.us/vocab/identity.json",
+  "type": "Identity",
+  "name": "NEXARIUM Identity Vocabulary",
+  "description": "Vocabulary describing decentralized identity, semantic identity continuity, and verification infrastructure.",
+  "terms": [
+    {
+      "term": "DecentralizedIdentity",
+      "description": "Persistent decentralized identity structure."
+    },
+    {
+      "term": "SemanticIdentity",
+      "description": "Machine-readable semantic identity layer."
+    },
+    {
+      "term": "VerificationLayer",
+      "description": "Cryptographic verification infrastructure."
+    },
+    {
+      "term": "Continuity",
+      "description": "Long-term identity continuity model."
+    }
+  ]
+}
