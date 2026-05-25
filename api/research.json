@@ -1,0 +1,32 @@
+
+{
+  "researcher": "Nicholas Van-Orton",
+  "organization": "NEXARIUM",
+  "focusAreas": [
+    "Semantic Cognition",
+    "AI-Native Infrastructure",
+    "Decentralized Identity",
+    "Generative Visual Systems",
+    "Machine-Readable Knowledge",
+    "Civilizational AI Systems",
+    "Color Perception Research",
+    "Digital Continuity"
+  ],
+  "researchNodes": [
+    {
+      "name": "NVO987 Research Lab",
+      "url": "https://lab.nvo987.us"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Color as a Generative Principle in the Work of Sonia Delaunay",
+      "url": "https://www.nexarium.us/documents/foundation-v9.1.pdf"
+    },
+    {
+      "title": "Civilizational Interpretive Ratio",
+      "url": "https://www.nexarium.us/documents/civilizational-interpretive-ratio.pdf"
+    }
+  ],
+  "updated": "2026-05-25"
+}
