@@ -1,0 +1,24 @@
+{
+  "capabilities": [
+    {
+      "name": "semantic-reasoning",
+      "description": "Machine-readable semantic interpretation."
+    },
+    {
+      "name": "identity-verification",
+      "description": "DID and cryptographic verification support."
+    },
+    {
+      "name": "knowledge-graph-processing",
+      "description": "Linked data and graph processing."
+    },
+    {
+      "name": "federated-interoperability",
+      "description": "Federation and ActivityPub compatibility."
+    },
+    {
+      "name": "ai-native-processing",
+      "description": "AI-oriented semantic infrastructure support."
+    }
+  ]
+}
