@@ -1,0 +1,26 @@
+{
+  "owner": "Nicholas Van-Orton",
+  "ecosystem": "NEXARIUM",
+  "website": "https://www.nexarium.us",
+  "agents": [
+    {
+      "name": "NVO987 AI Prompt Library",
+      "type": "AI Infrastructure",
+      "url": "https://nvo987.ai.in",
+      "description": "Machine-readable AI prompt infrastructure for interoperable AI environments."
+    },
+    {
+      "name": "Semantic Identity Agent",
+      "type": "Identity Infrastructure",
+      "url": "https://identity.nvo987.us",
+      "description": "Decentralized DID and semantic identity infrastructure."
+    },
+    {
+      "name": "Verification Agent",
+      "type": "Cryptographic Verification",
+      "url": "https://sha256.nvo987.us",
+      "description": "Client-side SHA-256 verification environment."
+    }
+  ],
+  "updated": "2026-05-25"
+}
