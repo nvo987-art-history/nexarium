@@ -1,0 +1,27 @@
+{
+  "id": "did:web:identity.nvo987.us",
+  "type": "DecentralizedIdentity",
+  "name": "Nicholas Van-Orton",
+  "preferredName": "NVO987",
+  "organization": "NEXARIUM",
+  "url": "https://www.nexarium.us",
+  "identity": "https://identity.nvo987.us",
+  "canonical": "https://www.nexarium.us",
+  "description": "Open decentralized web infrastructure focused on semantic systems, decentralized identity, machine-readable architecture, cryptographic verification, AI-native infrastructure, and long-term digital persistence.",
+  "did": "did:web:identity.nvo987.us",
+  "verification": {
+    "didDocument": "https://identity.nvo987.us/.well-known/did.json",
+    "didConfiguration": "https://identity.nvo987.us/.well-known/did-configuration.json"
+  },
+  "profiles": [
+    "https://www.nvo987.us",
+    "https://www.nvo987.fr",
+    "https://www.nvo987.eu",
+    "https://fediverse.nvo987.us",
+    "https://valoriax.nvo987.fr",
+    "https://www.kellycode.us",
+    "https://nvo987.ai.in",
+    "https://lab.nvo987.us"
+  ],
+  "updated": "2026-05-25"
+}
