@@ -1,0 +1,26 @@
+{
+  "trust_network": {
+    "name": "NEXARIUM Trust Network",
+    "verification": [
+      "SHA-256",
+      "OpenTimestamps",
+      "Bitcoin Anchoring"
+    ],
+    "connected_entities": [
+      {
+        "entity": "NEXARIUM",
+        "domain": "https://www.nexarium.us"
+      },
+      {
+        "entity": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+        "domain": "https://www.nvo987.fr"
+      },
+      {
+        "entity": "VALORIAX",
+        "domain": "https://valoriax.nvo987.fr"
+      }
+    ],
+    "integrity": "cryptographically-verifiable",
+    "federation": "enabled"
+  }
+}
