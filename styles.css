@@ -701,35 +701,40 @@ footer p{
 
 /* MOBILE */
 
-@media(max-width:768px){
+@media (max-width:768px){
 
-    html{
-        scroll-padding-top:190px;
-    }
-
+    html,
     body{
         overflow-x:hidden;
+        width:100%;
+    }
+
+    *{
+        max-width:100%;
+    }
+
+    html{
+        scroll-padding-top:140px;
     }
 
     [id]{
-        scroll-margin-top:190px;
+        scroll-margin-top:140px;
     }
 
+    /* NAVBAR */
+
     .navbar{
-        padding:20px 5%;
+        padding:18px 5%;
 
         flex-direction:column;
         align-items:flex-start;
 
-        gap:18px;
+        gap:14px;
     }
 
     .logo{
-        font-size:1.9rem;
-
-        line-height:0.95;
-
-        letter-spacing:-0.02em;
+        font-size:1.8rem;
+        line-height:1;
     }
 
     nav{
@@ -738,99 +743,170 @@ footer p{
         display:flex;
         flex-wrap:wrap;
 
-        gap:14px;
+        gap:12px;
     }
 
     nav a{
         font-size:0.82rem;
     }
 
-    /* EZ JAVÍTJA A HATALMAS FEKETE RÉSZT */
+    /* HERO */
+
     .hero{
-        min-height:auto !important;
-        height:auto !important;
+        min-height:auto;
+        height:auto;
 
         display:block;
 
-        padding:170px 5% 30px !important;
+        padding:
+            150px
+            5%
+            40px;
+
+        margin:0;
     }
 
     .hero-content{
+        width:100%;
         max-width:100%;
     }
 
     .hero h1{
-        line-height:0.98;
+        font-size:4.1rem;
 
-        margin:20px 0;
+        line-height:0.9;
+
+        margin:18px 0;
+
+        word-break:break-word;
+    }
+
+    .hero-label{
+        font-size:0.72rem;
+
+        line-height:1.7;
+
+        letter-spacing:0.18em;
     }
 
     .hero p{
         font-size:1rem;
 
-        line-height:1.9;
+        line-height:1.8;
+
+        max-width:100%;
     }
 
     .hero-buttons{
-        flex-direction:column;
-
-        align-items:flex-start;
-
         width:100%;
 
-        margin-top:32px;
+        flex-direction:column;
+
+        gap:14px;
+
+        margin-top:28px;
     }
 
     .btn{
         width:100%;
     }
 
-    /* SZEKCIÓK FELHÚZÁSA */
-    main{
-        margin-top:0 !important;
+    /* MAIN */
 
-        gap:24px;
+    main{
+        width:92%;
+
+        margin:0 auto;
+
+        gap:22px;
 
         padding-bottom:70px;
     }
 
     section{
-        margin-top:0 !important;
-        padding-top:0 !important;
+        margin:0;
+        padding:0;
     }
 
+    /* GLASS CARD */
+
     .glass-card{
-        padding:38px 26px;
+        width:100%;
 
-        border-radius:28px;
+        margin:0;
 
-        margin-top:0 !important;
+        padding:34px 22px;
+
+        border-radius:26px;
+
+        overflow:hidden;
     }
 
     .glass-card h2{
-        font-size:2.3rem;
+        font-size:2.1rem;
 
         line-height:1.05;
+
+        margin-bottom:18px;
     }
 
     .glass-card p{
         font-size:0.98rem;
+
+        line-height:1.8;
+
+        max-width:100%;
     }
+
+    /* GRID */
 
     .principles-grid{
         grid-template-columns:1fr;
-    }
 
-    .contact-panel{
-        padding:36px 26px;
-    }
-
-    .contact-panel h2{
-        font-size:2.1rem;
-    }
-
-    .footer-links{
         gap:18px;
     }
 
-        }
+    .principle-item{
+        padding:24px;
+    }
+
+    /* CONTACT */
+
+    .contact-panel{
+        padding:34px 22px;
+
+        border-radius:26px;
+    }
+
+    .contact-panel h2{
+        font-size:2rem;
+    }
+
+    /* FOOTER */
+
+    footer{
+        padding:60px 5%;
+    }
+
+    .footer-links{
+        gap:16px;
+    }
+
+    /* FIX SIDE SCROLL */
+
+    .background-glow{
+        width:420px;
+        height:420px;
+
+        right:-180px;
+        top:-120px;
+    }
+
+    img,
+    video,
+    canvas{
+        max-width:100%;
+        height:auto;
+    }
+
+}
