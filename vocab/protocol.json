@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "Protocol": "https://www.nexarium.us/vocab#Protocol",
+    "KellyProtocol": "https://www.nexarium.us/vocab#KellyProtocol",
+    "SemanticProtocol": "https://www.nexarium.us/vocab#SemanticProtocol",
+    "VerificationProtocol": "https://www.nexarium.us/vocab#VerificationProtocol",
+    "Interoperability": "https://www.nexarium.us/vocab#Interoperability"
+  },
+  "id": "https://www.nexarium.us/vocab/protocol.json",
+  "type": "Protocol",
+  "name": "NEXARIUM Protocol Vocabulary",
+  "description": "Vocabulary describing semantic interoperability, verification systems, and Kelly Protocol infrastructure.",
+  "terms": [
+    {
+      "term": "KellyProtocol",
+      "description": "Continuity-oriented decentralized identity protocol."
+    },
+    {
+      "term": "SemanticProtocol",
+      "description": "Machine-readable semantic interoperability layer."
+    },
+    {
+      "term": "VerificationProtocol",
+      "description": "Cryptographic verification workflow."
+    },
+    {
+      "term": "Interoperability",
+      "description": "Cross-system compatibility and semantic continuity."
+    }
+  ]
+}
