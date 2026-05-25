@@ -1,0 +1,54 @@
+{
+  "dataset": "NEXARIUM Semantic Map",
+  "version": "1.0",
+  "generated": "2026-05-25",
+  "nodes": [
+    {
+      "id": "nexarium",
+      "type": "ecosystem",
+      "url": "https://www.nexarium.us"
+    },
+    {
+      "id": "identity",
+      "type": "identity-layer",
+      "url": "https://identity.nvo987.us"
+    },
+    {
+      "id": "lab",
+      "type": "research-node",
+      "url": "https://lab.nvo987.us"
+    },
+    {
+      "id": "fediverse",
+      "type": "federation-layer",
+      "url": "https://fediverse.nvo987.us"
+    },
+    {
+      "id": "ai",
+      "type": "ai-layer",
+      "url": "https://nvo987.ai.in"
+    }
+  ],
+  "relations": [
+    {
+      "source": "nexarium",
+      "target": "identity",
+      "relation": "hasIdentityLayer"
+    },
+    {
+      "source": "nexarium",
+      "target": "lab",
+      "relation": "hasResearchInfrastructure"
+    },
+    {
+      "source": "nexarium",
+      "target": "fediverse",
+      "relation": "hasFederationLayer"
+    },
+    {
+      "source": "nexarium",
+      "target": "ai",
+      "relation": "hasAILayer"
+    }
+  ]
+}
