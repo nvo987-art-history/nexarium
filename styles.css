@@ -24,14 +24,18 @@
     --shadow:0 12px 40px rgba(0,0,0,0.35);
 }
 
+/* GLOBAL */
+
 html{
     scroll-behavior:smooth;
+    scroll-padding-top:140px;
 }
 
 body{
     font-family:'Inter', sans-serif;
     background:var(--bg);
     color:var(--text);
+
     overflow-x:hidden;
     min-height:100vh;
     position:relative;
@@ -40,10 +44,17 @@ body{
     text-rendering:optimizeLegibility;
 }
 
+/* FIX ANCHOR OFFSET */
+
+[id]{
+    scroll-margin-top:140px;
+}
+
 /* BACKGROUND */
 
 .background-glow{
     position:fixed;
+
     width:700px;
     height:700px;
 
@@ -88,7 +99,9 @@ body{
 
 .logo{
     font-family:'Cormorant Garamond', serif;
+
     font-size:2.1rem;
+
     color:var(--gold);
 
     letter-spacing:0.02em;
@@ -106,6 +119,7 @@ nav a{
     position:relative;
 
     color:#cfcfcf;
+
     text-decoration:none;
 
     font-size:0.92rem;
@@ -178,6 +192,7 @@ nav a:hover::after{
     margin:28px 0;
 
     font-weight:700;
+
     letter-spacing:-0.04em;
 }
 
@@ -187,6 +202,7 @@ nav a:hover::after{
     color:var(--text-soft);
 
     font-size:1.08rem;
+
     line-height:2;
 }
 
@@ -224,6 +240,7 @@ nav a:hover::after{
 
 .primary{
     background:var(--gold);
+
     color:#111;
 
     font-weight:600;
@@ -266,6 +283,7 @@ main{
 
     display:flex;
     flex-direction:column;
+
     gap:42px;
 
     padding-bottom:130px;
@@ -673,6 +691,7 @@ footer p{
 
 ::-webkit-scrollbar-thumb{
     background:rgba(212,175,55,0.24);
+
     border-radius:20px;
 }
 
@@ -683,6 +702,14 @@ footer p{
 /* MOBILE */
 
 @media(max-width:768px){
+
+    html{
+        scroll-padding-top:190px;
+    }
+
+    [id]{
+        scroll-margin-top:190px;
+    }
 
     .navbar{
         padding:20px 5%;
@@ -773,4 +800,4 @@ footer p{
         gap:18px;
     }
 
-    }
+        }
