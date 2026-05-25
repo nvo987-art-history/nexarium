@@ -1,0 +1,30 @@
+
+{
+  "primary": [
+    "https://www.nexarium.us",
+    "https://identity.nvo987.us"
+  ],
+  "ecosystem": [
+    "https://www.nvo987.us",
+    "https://www.nvo987.fr",
+    "https://www.nvo987.eu",
+    "https://fediverse.nvo987.us",
+    "https://valoriax.nvo987.fr",
+    "https://www.kellycode.us",
+    "https://nvo987.ai.in",
+    "https://lab.nvo987.us",
+    "https://sha256.nvo987.us",
+    "https://sha3.nvo987.us"
+  ],
+  "web3": [
+    "nexarium.web3",
+    "kellycode.web3",
+    "nvo987.web3",
+    "fediverse.web3",
+    "culturevisuelle.web3",
+    "valoriax.web3",
+    "culturevisuelle.metaverse",
+    "culturevisuelle.satoshi"
+  ],
+  "updated": "2026-05-25"
+}
