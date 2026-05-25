@@ -768,6 +768,8 @@ footer p{
 
     .hero{
     min-height:auto;
+    height:auto;
+
     display:flex;
     align-items:flex-start;
     justify-content:center;
