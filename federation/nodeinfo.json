@@ -1,0 +1,19 @@
+{
+  "version": "2.1",
+  "software": {
+    "name": "nexarium-federation",
+    "version": "1.0"
+  },
+  "protocols": [
+    "activitypub"
+  ],
+  "services": {
+    "inbound": [],
+    "outbound": []
+  },
+  "openRegistrations": false,
+  "metadata": {
+    "nodeName": "NEXARIUM Federation Layer",
+    "nodeDescription": "Decentralized federation infrastructure connected to NEXARIUM."
+  }
+}
