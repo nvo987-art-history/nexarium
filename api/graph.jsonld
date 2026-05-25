@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.nexarium.us",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "founder": {
+        "@id": "did:web:identity.nvo987.us"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "did:web:identity.nvo987.us",
+      "name": "Nicholas Van-Orton",
+      "memberOf": {
+        "@id": "https://www.nexarium.us"
+      }
+    },
+    {
+      "@type": "ResearchProject",
+      "name": "Cognitive Infrastructure",
+      "url": "https://lab.nvo987.us"
+    },
+    {
+      "@type": "WebSite",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us"
+    }
+  ]
+}
