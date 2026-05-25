@@ -764,14 +764,16 @@ footer p{
         font-size:0.82rem;
     }
 
-    /* FIXED HERO */
+    /* HERO FIX */
 
     .hero{
-        min-height:auto;
+        min-height:100vh;
 
-        padding:120px 5% 60px;
+        padding:150px 5% 70px;
 
-        align-items:flex-start;
+        display:flex;
+        align-items:center;
+        justify-content:center;
     }
 
     .hero h1{
