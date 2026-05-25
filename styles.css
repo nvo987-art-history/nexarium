@@ -1,6 +1,5 @@
 /* =========================================================
-   NEXARIUM — PREMIUM DARK ARCHITECTURE
-   Elegant Responsive Infrastructure Design
+   NEXARIUM — PREMIUM RESPONSIVE DESIGN
 ========================================================= */
 
 *{
@@ -11,23 +10,23 @@
 
 :root{
 
-    --bg:#040404;
-    --bg-soft:#0a0a0a;
-    --card:#101010;
+    --bg:#050505;
+    --bg-soft:#0d0d0d;
+
+    --card:rgba(255,255,255,0.04);
 
     --text:#f5f5f5;
-    --text-soft:#b8b8b8;
-    --text-dim:#7b7b7b;
+    --text-soft:#b9b9b9;
+    --text-dim:#7a7a7a;
 
     --gold:#d4af37;
-    --gold-soft:rgba(212,175,55,0.14);
 
     --border:rgba(255,255,255,0.08);
 
+    --radius:32px;
+
     --shadow:
         0 10px 40px rgba(0,0,0,0.45);
-
-    --radius:34px;
 }
 
 /* =========================================================
@@ -39,6 +38,7 @@ html{
 }
 
 body{
+
     font-family:'Inter',sans-serif;
 
     background:
@@ -56,35 +56,8 @@ body{
 
     overflow-x:hidden;
 
-    min-height:100vh;
-
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizeLegibility;
-}
-
-/* =========================================================
-   BACKGROUND GLOW
-========================================================= */
-
-.background-glow{
-    position:fixed;
-
-    top:-250px;
-    right:-250px;
-
-    width:700px;
-    height:700px;
-
-    border-radius:50%;
-
-    background:
-        radial-gradient(circle,
-        rgba(212,175,55,0.18) 0%,
-        transparent 70%);
-
-    pointer-events:none;
-
-    z-index:-1;
 }
 
 /* =========================================================
@@ -92,21 +65,23 @@ body{
 ========================================================= */
 
 .navbar{
+
     position:fixed;
 
     top:0;
     left:0;
+
     width:100%;
 
-    padding:24px 7%;
+    z-index:1000;
 
     display:flex;
     align-items:center;
     justify-content:space-between;
 
-    z-index:1000;
+    padding:24px 7%;
 
-    background:rgba(4,4,4,0.82);
+    background:rgba(5,5,5,0.84);
 
     backdrop-filter:blur(18px);
     -webkit-backdrop-filter:blur(18px);
@@ -115,6 +90,7 @@ body{
 }
 
 .logo{
+
     font-family:'Cormorant Garamond',serif;
 
     font-size:2rem;
@@ -126,15 +102,20 @@ body{
 }
 
 nav{
+
     display:flex;
     align-items:center;
+
     gap:30px;
+
+    flex-wrap:wrap;
 }
 
 nav a{
+
     position:relative;
 
-    color:#d0d0d0;
+    color:#d1d1d1;
 
     text-decoration:none;
 
@@ -144,12 +125,13 @@ nav a{
 }
 
 nav a::after{
+
     content:'';
 
     position:absolute;
 
     left:0;
-    bottom:-8px;
+    bottom:-7px;
 
     width:0%;
     height:1px;
@@ -160,10 +142,12 @@ nav a::after{
 }
 
 nav a:hover{
+
     color:#fff;
 }
 
 nav a:hover::after{
+
     width:100%;
 }
 
@@ -172,40 +156,42 @@ nav a:hover::after{
 ========================================================= */
 
 .hero{
-    min-height:100vh;
+
+    padding:
+        220px 7%
+        130px;
 
     display:flex;
     align-items:center;
     justify-content:center;
-
-    padding:
-        180px 7%
-        120px;
 }
 
 .hero-content{
+
     width:100%;
     max-width:980px;
 }
 
 .hero-label{
+
     display:inline-block;
+
+    margin-bottom:26px;
 
     color:var(--gold);
 
     letter-spacing:.28em;
+
     text-transform:uppercase;
 
     font-size:.76rem;
-
-    margin-bottom:28px;
 }
 
 .hero h1{
+
     font-family:'Cormorant Garamond',serif;
 
-    font-size:
-        clamp(4.8rem,10vw,8rem);
+    font-size:clamp(4.5rem,10vw,8rem);
 
     line-height:.9;
 
@@ -215,22 +201,24 @@ nav a:hover::after{
 }
 
 .hero p{
+
     max-width:760px;
 
     color:var(--text-soft);
 
-    font-size:1.08rem;
+    font-size:1.06rem;
 
     line-height:2;
 }
 
 .hero-buttons{
+
+    margin-top:50px;
+
     display:flex;
     flex-wrap:wrap;
 
     gap:18px;
-
-    margin-top:50px;
 }
 
 /* =========================================================
@@ -238,6 +226,7 @@ nav a:hover::after{
 ========================================================= */
 
 .btn{
+
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -248,13 +237,13 @@ nav a:hover::after{
 
     text-decoration:none;
 
-    font-size:.92rem;
-    font-weight:500;
-
     transition:.35s ease;
+
+    font-size:.92rem;
 }
 
 .primary{
+
     background:var(--gold);
 
     color:#111;
@@ -262,30 +251,28 @@ nav a:hover::after{
     font-weight:600;
 
     box-shadow:
-        0 10px 30px rgba(212,175,55,0.2);
+        0 10px 30px rgba(212,175,55,0.22);
 }
 
 .primary:hover{
-    transform:translateY(-4px);
 
-    box-shadow:
-        0 16px 36px rgba(212,175,55,0.28);
+    transform:translateY(-4px);
 }
 
 .secondary{
-    border:1px solid rgba(255,255,255,0.12);
+
+    background:rgba(255,255,255,0.04);
+
+    border:1px solid rgba(255,255,255,0.08);
 
     color:#fff;
-
-    background:
-        rgba(255,255,255,0.04);
 }
 
 .secondary:hover{
+
     transform:translateY(-4px);
 
-    border-color:
-        rgba(212,175,55,0.4);
+    border-color:rgba(212,175,55,0.25);
 }
 
 /* =========================================================
@@ -293,6 +280,7 @@ nav a:hover::after{
 ========================================================= */
 
 main{
+
     width:min(1180px,92%);
 
     margin:auto;
@@ -300,16 +288,17 @@ main{
     display:flex;
     flex-direction:column;
 
-    gap:40px;
+    gap:42px;
 
-    padding-bottom:140px;
+    padding-bottom:120px;
 }
 
 /* =========================================================
-   GLASS CARDS
+   CARDS
 ========================================================= */
 
 .glass-card{
+
     position:relative;
 
     padding:58px;
@@ -319,20 +308,21 @@ main{
     background:
         linear-gradient(
         180deg,
-        rgba(255,255,255,0.04),
-        rgba(255,255,255,0.02)
+        rgba(255,255,255,0.045),
+        rgba(255,255,255,0.025)
         );
 
     border:1px solid var(--border);
 
-    overflow:hidden;
-
     box-shadow:var(--shadow);
 
-    transition:.4s ease;
+    overflow:hidden;
+
+    transition:.35s ease;
 }
 
 .glass-card::before{
+
     content:'';
 
     position:absolute;
@@ -341,20 +331,22 @@ main{
 
     background:
         radial-gradient(circle at top right,
-        rgba(212,175,55,0.08),
-        transparent 35%);
+        rgba(212,175,55,0.06),
+        transparent 40%);
 
     pointer-events:none;
 }
 
 .glass-card:hover{
+
     transform:translateY(-6px);
 
     border-color:
-        rgba(212,175,55,0.22);
+        rgba(212,175,55,0.2);
 }
 
 .card-top{
+
     position:absolute;
 
     top:0;
@@ -371,6 +363,7 @@ main{
 }
 
 .glass-card h2{
+
     font-family:'Cormorant Garamond',serif;
 
     font-size:3rem;
@@ -381,13 +374,14 @@ main{
 }
 
 .glass-card p{
+
     color:var(--text-soft);
 
     line-height:2;
 
     font-size:1rem;
 
-    max-width:900px;
+    max-width:920px;
 }
 
 /* =========================================================
@@ -395,6 +389,7 @@ main{
 ========================================================= */
 
 .principles-grid{
+
     margin-top:42px;
 
     display:grid;
@@ -406,12 +401,13 @@ main{
 }
 
 .principle-item{
-    padding:32px;
+
+    padding:30px;
 
     border-radius:28px;
 
     background:
-        rgba(255,255,255,0.025);
+        rgba(255,255,255,0.03);
 
     border:1px solid rgba(255,255,255,0.05);
 
@@ -419,16 +415,15 @@ main{
 }
 
 .principle-item:hover{
-    transform:translateY(-5px);
+
+    transform:translateY(-4px);
 
     border-color:
-        rgba(212,175,55,0.2);
-
-    background:
-        rgba(255,255,255,0.04);
+        rgba(212,175,55,0.18);
 }
 
 .principle-item span{
+
     color:var(--gold);
 
     font-size:.76rem;
@@ -439,16 +434,18 @@ main{
 }
 
 .principle-item h3{
+
     margin:
         18px 0 14px;
 
-    font-size:1.35rem;
+    font-size:1.34rem;
 }
 
 .principle-item p{
+
     color:var(--text-soft);
 
-    line-height:1.85;
+    line-height:1.9;
 
     font-size:.96rem;
 }
@@ -458,6 +455,7 @@ main{
 ========================================================= */
 
 .specification-box{
+
     margin-top:34px;
 
     padding:30px;
@@ -471,17 +469,19 @@ main{
 }
 
 .spec-block{
+
     margin-bottom:22px;
 }
 
 .spec-label{
+
     display:block;
 
     margin-bottom:10px;
 
     font-size:.72rem;
 
-    letter-spacing:.24em;
+    letter-spacing:.22em;
 
     text-transform:uppercase;
 
@@ -489,18 +489,20 @@ main{
 }
 
 .hash-value{
+
     display:block;
 
     word-break:break-word;
 
     line-height:1.9;
 
-    color:#d2d2d2;
+    color:#d0d0d0;
 
     font-size:.84rem;
 }
 
 .spec-link{
+
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -513,22 +515,23 @@ main{
 
     color:var(--gold);
 
-    border:1px solid rgba(212,175,55,0.16);
-
     background:
-        rgba(255,255,255,0.025);
+        rgba(255,255,255,0.03);
+
+    border:1px solid rgba(212,175,55,0.12);
 
     transition:.3s ease;
 }
 
 .spec-link:hover{
-    transform:translateY(-2px);
 
-    border-color:
-        rgba(212,175,55,0.35);
+    transform:translateY(-2px);
 
     background:
         rgba(212,175,55,0.06);
+
+    border-color:
+        rgba(212,175,55,0.26);
 }
 
 /* =========================================================
@@ -536,14 +539,16 @@ main{
 ========================================================= */
 
 footer{
+
     margin-top:80px;
 
     padding:90px 7%;
 
-    border-top:1px solid rgba(255,255,255,0.06);
+    border-top:1px solid rgba(255,255,255,0.05);
 }
 
 .footer-inner{
+
     width:min(1100px,100%);
 
     margin:auto;
@@ -553,10 +558,11 @@ footer{
     display:flex;
     flex-direction:column;
 
-    gap:24px;
+    gap:22px;
 }
 
 .footer-inner h3{
+
     font-family:'Cormorant Garamond',serif;
 
     font-size:2.4rem;
@@ -565,15 +571,17 @@ footer{
 }
 
 .footer-links{
+
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
 
-    gap:22px;
+    gap:18px;
 }
 
 .footer-links a,
 .footer-email{
+
     color:#b8b8b8;
 
     text-decoration:none;
@@ -583,10 +591,12 @@ footer{
 
 .footer-links a:hover,
 .footer-email:hover{
+
     color:var(--gold);
 }
 
 footer p{
+
     color:var(--text-dim);
 
     line-height:1.8;
@@ -597,6 +607,7 @@ footer p{
 ========================================================= */
 
 .reveal{
+
     opacity:0;
 
     transform:translateY(50px);
@@ -607,6 +618,7 @@ footer p{
 }
 
 .reveal.active{
+
     opacity:1;
 
     transform:translateY(0);
@@ -621,132 +633,160 @@ footer p{
 }
 
 ::-webkit-scrollbar-track{
-    background:#080808;
+    background:#090909;
 }
 
 ::-webkit-scrollbar-thumb{
+
     background:
-        rgba(212,175,55,0.25);
+        rgba(212,175,55,0.24);
 
     border-radius:20px;
 }
 
 /* =========================================================
-   MOBILE
+   MOBILE FIX
 ========================================================= */
 
 @media(max-width:768px){
 
     .navbar{
-        padding:20px 5%;
+
+        padding:18px 5%;
 
         flex-direction:column;
         align-items:flex-start;
 
-        gap:16px;
+        gap:14px;
     }
 
     nav{
-        width:100%;
 
-        flex-wrap:wrap;
+        width:100%;
 
         gap:14px;
     }
 
     nav a{
+
         font-size:.82rem;
     }
 
     .hero{
-        min-height:auto;
 
         padding:
-            170px 5%
+            190px 5%
             90px;
     }
 
     .hero h1{
+
         font-size:
-            clamp(3.4rem,16vw,5rem);
+            clamp(3.3rem,16vw,5rem);
 
         line-height:.98;
     }
 
     .hero p{
-        font-size:.98rem;
+
+        font-size:.97rem;
 
         line-height:1.9;
     }
 
     .hero-buttons{
+
         flex-direction:column;
 
         width:100%;
     }
 
     .btn{
+
         width:100%;
     }
 
     main{
+
         width:94%;
 
         gap:28px;
     }
 
     .glass-card{
-        padding:36px 24px;
+
+        padding:34px 22px;
 
         border-radius:28px;
     }
 
     .glass-card:hover{
+
         transform:none;
     }
 
     .glass-card h2{
-        font-size:2.2rem;
+
+        font-size:2.1rem;
 
         line-height:1.08;
     }
 
     .glass-card p{
-        font-size:.97rem;
+
+        font-size:.96rem;
 
         line-height:1.9;
     }
 
     .principles-grid{
+
         grid-template-columns:1fr;
 
         gap:18px;
     }
 
     .principle-item{
-        padding:28px 22px;
+
+        padding:26px 22px;
     }
 
     .principle-item:hover{
+
         transform:none;
     }
 
     .specification-box{
+
         padding:22px;
     }
 
     .spec-link{
+
         width:100%;
 
         text-align:center;
-    }
 
-    .footer-links{
-        gap:16px;
+        word-break:break-word;
     }
 
     footer{
+
         padding:70px 5%;
     }
 
-        }
+    .footer-links{
+
+        gap:14px;
+    }
+
+    /* ===== MOBILE REVEAL FIX ===== */
+
+    .reveal{
+
+        opacity:1 !important;
+
+        transform:none !important;
+    }
+
+}
