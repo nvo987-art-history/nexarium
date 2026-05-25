@@ -767,14 +767,7 @@ footer p{
     /* HERO FIX */
 
     .hero{
-    min-height:auto;
-    height:auto;
-
-    display:flex;
-    align-items:flex-start;
-    justify-content:center;
-
-    padding:150px 5% 70px;
+    padding-top:150px;
     } 
 
     .hero h1{
