@@ -1,155 +1,86 @@
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Organization",
+  "@id": "https://www.nexarium.us/#organization",
 
-    {
-      "@type": "Organization",
-      "@id": "https://www.nexarium.us/#organization",
-      "name": "NEXARIUM — Open Decentralized Web Infrastructure",
-      "url": "https://www.nexarium.us",
-      "description": "Decentralized web infrastructure focused on identity, semantic systems, and digital continuity across Web2 and Web3 environments.",
-      "foundingDate": "2026-05-24",
-      "founder": {
-        "@id": "https://www.nexarium.us/#nicholas-van-orton"
-      },
-      "brand": {
-        "@id": "https://www.nvo987.us/#brand"
-      },
-      "sameAs": [
-        "https://www.kellycode.us",
-        "https://www.nvo987.us",
-        "https://www.nvo987.fr",
-        "https://identity.nvo987.us",
-        "https://valoriax.nvo987.fr",
-        "https://fediverse.nvo987.us",
-        "https://culturevisuelle.metaverse",
-        "https://culturevisuelle.satoshi"
-      ]
-    },
+  "name": "NEXARIUM",
 
-    {
-      "@type": "Person",
-      "@id": "https://www.nexarium.us/#nicholas-van-orton",
-      "name": "Nicholas Van-Orton",
-      "description": "Founder of NEXARIUM and creator of identity and semantic system frameworks.",
-      "worksFor": {
-        "@id": "https://www.nexarium.us/#organization"
-      },
-      "knowsAbout": [
-        "Semantic Systems",
-        "Decentralized Identity",
-        "Digital Continuity",
-        "Linked Data",
-        "Federated Infrastructure"
-      ]
-    },
+  "url": "https://www.nexarium.us",
 
-    {
-      "@type": "Brand",
-      "@id": "https://www.nvo987.us/#brand",
-      "name": "NVO987",
-      "url": "https://www.nvo987.us",
-      "description": "Research and identity systems brand focused on semantic architecture, visual culture, and decentralized identity frameworks."
-    },
+  "description": "NEXARIUM is an open decentralized infrastructure ecosystem focused on identity continuity, semantic knowledge systems, machine-readable architectures, decentralized publication, scholarly interoperability, federated communication, cryptographic verification, preservation infrastructure, AI-native environments, and long-term digital persistence.",
 
-    {
-      "@type": "Organization",
-      "@id": "https://www.nvo987.fr/#association",
-      "name": "NVO987 Association",
-      "url": "https://www.nvo987.fr",
-      "description": "Cultural and research association focused on visual culture and semantic publication.",
-      "foundingDate": "2026-05-24",
-      "founder": {
-        "@id": "https://www.nexarium.us/#nicholas-van-orton"
-      },
-      "parentOrganization": {
-        "@id": "https://www.nexarium.us/#organization"
-      }
-    },
+  "email": "mailto:contact@nexarium.us",
 
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.kellycode.us/#project",
-      "name": "Kelly Code",
-      "description": "Identity framework exploring continuity, symbolic systems, and digital persistence.",
-      "dateCreated": "2026-05-24",
-      "url": "https://www.kellycode.us",
-      "author": {
-        "@id": "https://www.nexarium.us/#nicholas-van-orton"
-      }
-    },
+  "foundingDate": "2026-06-16",
 
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.kellycode.us/#protocol",
-      "name": "Kelly Protocol",
-      "description": "Protocol for decentralized identity continuity and semantic interoperability across distributed and Web3-based systems.",
-      "dateCreated": "2026-05-24",
-      "url": "https://www.kellycode.us",
-      "author": {
-        "@id": "https://www.nexarium.us/#nicholas-van-orton"
-      }
-    },
+  "founder": {
+    "@type": "Person",
+    "@id": "https://person.nvo987.us/#person",
+    "name": "Nicholas Van-Orton",
+    "url": "https://person.nvo987.us",
+    "sameAs": [
+      "https://orcid.org/0009-0007-4628-1871",
+      "https://isni.org/isni/0000000529640885",
+      "https://www.wikidata.org/wiki/Q137675227",
+      "https://scholar.google.com/citations?user=iRM-GNQAAAAJ",
+      "https://osf.io/t8bek"
+    ]
+  },
 
-    {
-      "@type": "WebSite",
-      "@id": "https://identity.nvo987.us/#identity",
-      "url": "https://identity.nvo987.us",
-      "name": "NVO987 Identity Layer",
-      "description": "Decentralized identity endpoint supporting DID-based identity systems.",
-      "about": {
-        "@id": "https://www.nexarium.us/#organization"
-      },
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "DID",
-        "value": "did:web:identity.nvo987.us"
-      }
-    },
+  "sameAs": [
+    "https://www.nvo987.us",
+    "https://www.nvo987.fr",
+    "https://www.nvo987.eu",
+    "https://identity.nvo987.us",
+    "https://web3.nvo987.us",
+    "https://fediverse.nvo987.us",
+    "https://social.nvo987.us",
+    "https://lab.nvo987.us",
+    "https://software.nvo987.us",
+    "https://archive.nvo987.us",
+    "https://valoriax.nvo987.fr",
+    "https://valoriquea.nexarium.us",
+    "https://nvo987.ai.in"
+  ],
 
-    {
-      "@type": "WebSite",
-      "@id": "https://valoriax.nvo987.fr/#website",
-      "url": "https://valoriax.nvo987.fr",
-      "name": "VALORIAX",
-      "description": "Institutional transparency infrastructure supporting the financial transparency, public accountability, and long-term integrity of the NVO987 association.",
-      "about": {
-        "@id": "https://www.nvo987.fr/#association"
-      }
-    },
+  "knowsAbout": [
+    "Decentralized Identity",
+    "Identity Continuity",
+    "Identity Portability",
+    "Semantic Web",
+    "Linked Data",
+    "Knowledge Graphs",
+    "Research Infrastructure",
+    "Scholarly Identity",
+    "Digital Preservation",
+    "Cryptographic Verification",
+    "Open Science",
+    "Machine-Readable Systems",
+    "Federated Communication",
+    "AI Infrastructure",
+    "Digital Civilization"
+  ],
 
-    {
-      "@type": "WebSite",
-      "@id": "https://fediverse.nvo987.us/#website",
-      "url": "https://fediverse.nvo987.us",
-      "name": "NEXARIUM Fediverse Infrastructure",
-      "description": "Federated social infrastructure connected to the NEXARIUM ecosystem through decentralized communication and ActivityPub-compatible technologies.",
-      "about": {
-        "@id": "https://www.nexarium.us/#organization"
-      }
-    },
+  "keywords": [
+    "NEXARIUM",
+    "NVO987",
+    "Kelly Code",
+    "Kelly Protocol",
+    "Identity Continuity",
+    "Semantic Systems",
+    "Knowledge Graph",
+    "Research Infrastructure",
+    "Digital Preservation",
+    "Open Science",
+    "Linked Data",
+    "Decentralized Publication",
+    "AI Infrastructure",
+    "Federated Infrastructure",
+    "Digital Persistence"
+  ],
 
-    {
-      "@type": "WebSite",
-      "@id": "https://culturevisuelle.metaverse/#website",
-      "url": "https://culturevisuelle.metaverse",
-      "name": "Culture Visuelle Metaverse",
-      "description": "Web3 domain representing the cryptographic extension of the NEXARIUM ecosystem.",
-      "about": {
-        "@id": "https://www.nexarium.us/#organization"
-      }
-    },
-
-    {
-      "@type": "WebSite",
-      "@id": "https://culturevisuelle.satoshi/#website",
-      "url": "https://culturevisuelle.satoshi",
-      "name": "Culture Visuelle Satoshi",
-      "description": "Blockchain-based domain for decentralized identity anchoring and persistence within the NEXARIUM system.",
-      "about": {
-        "@id": "https://www.nexarium.us/#organization"
-      }
-    }
-
-  ]
+  "memberOf": {
+    "@type": "Organization",
+    "name": "NVO987 – Culture Visuelle Moderne et Contemporaine"
+  }
 }
