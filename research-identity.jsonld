@@ -1,81 +1,57 @@
 {
-  "@context": [
-    "https://schema.org",
-    "https://w3id.org/did/v1"
-  ],
+  "@context": "https://schema.org",
 
   "@type": "Person",
 
-  "@id": "did:web:identity.nvo987.us",
+  "@id": "https://person.nvo987.us/#person",
 
   "name": "Nicholas Van-Orton",
 
-  "alternateName": [
-    "NVO987"
-  ],
+  "alternateName": "NVO987",
 
-  "url": "https://www.nexarium.us",
+  "url": "https://person.nvo987.us",
 
   "identifier": [
 
     {
       "@type": "PropertyValue",
+      "propertyID": "DID",
+      "value": "did:web:identity.nvo987.us"
+    },
+
+    {
+      "@type": "PropertyValue",
       "propertyID": "ORCID",
-      "value": "0009-0007-4628-1871",
-      "url": "https://orcid.org/0009-0007-4628-1871"
+      "value": "0009-0007-4628-1871"
     },
 
     {
       "@type": "PropertyValue",
       "propertyID": "ISNI",
-      "value": "0000000529640885",
-      "url": "https://isni.org/isni/0000000529640885"
+      "value": "0000000529640885"
+    },
+
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.2139/ssrn.6007654"
     }
 
   ],
 
   "sameAs": [
 
+    "https://identity.nvo987.us",
+
+    "https://orcid.org/0009-0007-4628-1871",
+
+    "https://isni.org/isni/0000000529640885",
+
     "https://www.wikidata.org/wiki/Q137675227",
 
     "https://scholar.google.com/citations?user=iRM-GNQAAAAJ",
 
-    "https://osf.io/t8bek",
-
-    "https://www.nvo987.us",
-
-    "https://www.nvo987.fr",
-
-    "https://www.nexarium.us",
-
-    "https://fediverse.nvo987.us",
-
-    "https://identity.nvo987.us"
-
-  ],
-
-  "subjectOf": [
-
-    {
-      "@type": "ScholarlyArticle",
-
-      "identifier": "https://doi.org/10.2139/ssrn.6007654",
-
-      "sameAs": "https://dx.doi.org/10.2139/ssrn.6007654"
-    }
-
-  ],
-
-  "knowsAbout": [
-
-    "Semantic Web",
-    "Decentralized Identity",
-    "Knowledge Graphs",
-    "AI Infrastructure",
-    "Digital Continuity",
-    "Cognitive Research",
-    "Machine-Readable Systems",
-    "Scholarly Infrastructure"
+    "https://osf.io/t8bek"
 
   ],
 
@@ -87,5 +63,4 @@
 
     "url": "https://www.nexarium.us"
   }
-
 }
