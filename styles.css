@@ -515,14 +515,25 @@ main{
 
     display:block;
 
-    word-break:break-word;
+    margin-top:12px;
+    padding:14px 16px;
 
-    line-height:1.9;
+    background:rgba(255,255,255,0.03);
+
+    border:1px solid rgba(212,175,55,0.10);
+
+    border-radius:16px;
 
     color:#d0d0d0;
 
-    font-size:.96rem;
-}
+    font-size:.9rem;
+    line-height:1.7;
+
+    font-family:monospace;
+
+    word-break:break-all;
+    overflow-wrap:anywhere;
+} 
 
 .spec-link{
 
