@@ -994,7 +994,13 @@ footer p{
 
     .hash-value{
 
-        font-size:.92rem;
+    font-size:.8rem;
+    line-height:1.6;
+
+    padding:12px;
+
+    overflow-wrap:break-word;
+    word-break:break-all;
     }
 
     .spec-link{
