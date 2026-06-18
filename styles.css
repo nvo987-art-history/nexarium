@@ -591,7 +591,21 @@ main{
     box-shadow:
         0 8px 24px rgba(212,175,55,0.08);
 }
+.verify-preview{
+    margin-top:24px;
+    padding:28px;
+    background:#000;
+    border-radius:18px;
+    border:1px solid rgba(212,175,55,.18);
 
+    color:#e8e8e8;
+    font-family:monospace;
+    font-size:14px;
+    line-height:1.8;
+
+    white-space:pre-wrap;
+    overflow-wrap:anywhere;
+}
 /* =========================================================
    PREMIUM FOOTER
 ========================================================= */
