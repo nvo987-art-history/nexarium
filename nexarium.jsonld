@@ -1,86 +1,92 @@
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://www.nexarium.us/#organization",
-
-  "name": "NEXARIUM",
-
-  "url": "https://www.nexarium.us",
-
-  "description": "NEXARIUM is an open decentralized infrastructure ecosystem focused on identity continuity, semantic knowledge systems, machine-readable architectures, decentralized publication, scholarly interoperability, federated communication, cryptographic verification, preservation infrastructure, AI-native environments, and long-term digital persistence.",
-
-  "email": "mailto:contact@nexarium.us",
-
-  "foundingDate": "2026-06-16",
-
-  "founder": {
-    "@type": "Person",
-    "@id": "https://person.nvo987.us/#person",
-    "name": "Nicholas Van-Orton",
-    "url": "https://person.nvo987.us",
-    "sameAs": [
-      "https://orcid.org/0009-0007-4628-1871",
-      "https://isni.org/isni/0000000529640885",
-      "https://www.wikidata.org/wiki/Q137675227",
-      "https://scholar.google.com/citations?user=iRM-GNQAAAAJ",
-      "https://osf.io/t8bek"
-    ]
-  },
-
-  "sameAs": [
-    "https://www.nvo987.us",
-    "https://www.nvo987.fr",
-    "https://www.nvo987.eu",
-    "https://identity.nvo987.us",
-    "https://web3.nvo987.us",
-    "https://fediverse.nvo987.us",
-    "https://social.nvo987.us",
-    "https://lab.nvo987.us",
-    "https://software.nvo987.us",
-    "https://archive.nvo987.us",
-    "https://valoriax.nvo987.fr",
-    "https://valoriquea.nexarium.us",
-    "https://nvo987.ai.in"
-  ],
-
-  "knowsAbout": [
-    "Decentralized Identity",
-    "Identity Continuity",
-    "Identity Portability",
-    "Semantic Web",
-    "Linked Data",
-    "Knowledge Graphs",
-    "Research Infrastructure",
-    "Scholarly Identity",
-    "Digital Preservation",
-    "Cryptographic Verification",
-    "Open Science",
-    "Machine-Readable Systems",
-    "Federated Communication",
-    "AI Infrastructure",
-    "Digital Civilization"
-  ],
-
-  "keywords": [
-    "NEXARIUM",
-    "NVO987",
-    "Kelly Code",
-    "Kelly Protocol",
-    "Identity Continuity",
-    "Semantic Systems",
-    "Knowledge Graph",
-    "Research Infrastructure",
-    "Digital Preservation",
-    "Open Science",
-    "Linked Data",
-    "Decentralized Publication",
-    "AI Infrastructure",
-    "Federated Infrastructure",
-    "Digital Persistence"
-  ],
-
-  "memberOf": {
-    "@type": "Organization",
-    "name": "NVO987 – Culture Visuelle Moderne et Contemporaine"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.nexarium.us/#organization",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "description": "Open decentralized infrastructure ecosystem focused on identity continuity, semantic systems, decentralized publication, cryptographic verification, interoperability and long-term digital persistence.",
+      "founder": {
+        "@id": "https://person.nvo987.us/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://person.nvo987.us/#person",
+      "name": "Nicholas Van-Orton",
+      "url": "https://person.nvo987.us",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0007-4628-1871"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISNI",
+          "value": "0000000529640885"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0007-4628-1871",
+        "https://isni.org/isni/0000000529640885",
+        "https://www.wikidata.org/wiki/Q137675227",
+        "https://scholar.google.com/citations?user=iRM-GNQAAAAJ",
+        "https://osf.io/t8bek"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.nexarium.us/#website",
+      "url": "https://www.nexarium.us",
+      "name": "NEXARIUM",
+      "description": "Open decentralized infrastructure for identity continuity, semantic knowledge systems, decentralized publication, cryptographic verification and long-term digital persistence.",
+      "publisher": {
+        "@id": "https://www.nexarium.us/#organization"
+      },
+      "about": {
+        "@id": "https://www.nexarium.us/#research"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://www.nexarium.us/#research",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "description": "Research initiative investigating identity continuity, semantic interoperability, decentralized publication, digital preservation, knowledge systems and AI-compatible infrastructures.",
+      "founder": {
+        "@id": "https://person.nvo987.us/#person"
+      },
+      "sponsor": {
+        "@id": "https://www.nexarium.us/#organization"
+      },
+      "keywords": [
+        "identity continuity",
+        "semantic web",
+        "linked data",
+        "knowledge graph",
+        "research infrastructure",
+        "digital preservation",
+        "AI interoperability"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://knowledge.nvo987.us/#dataset",
+      "name": "NEXARIUM Knowledge Infrastructure",
+      "url": "https://knowledge.nvo987.us",
+      "creator": {
+        "@id": "https://person.nvo987.us/#person"
+      },
+      "keywords": [
+        "semantic web",
+        "knowledge graph",
+        "linked data",
+        "digital identity",
+        "AI"
+      ]
+    }
+  ]
 }
