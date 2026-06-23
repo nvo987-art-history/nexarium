@@ -1082,5 +1082,114 @@ footer p{
 
         transform:none !important;
     }
+   /* =========================================================
+   DIGITAL CONTINUITY DIAGRAM
+========================================================= */
 
-              }
+.diagram-hint{
+
+    margin-top:42px;
+    margin-bottom:14px;
+
+    text-align:center;
+
+    color:rgba(212,175,55,.75);
+
+    font-size:.82rem;
+
+    letter-spacing:.18em;
+
+    text-transform:uppercase;
+
+    animation:diagramPulse 2.5s infinite;
+}
+
+@keyframes diagramPulse{
+
+    0%,100%{
+        opacity:.45;
+    }
+
+    50%{
+        opacity:1;
+    }
+}
+
+.continuity-diagram{
+
+    margin-top:10px;
+
+    padding:40px;
+
+    border-radius:28px;
+
+    background:
+        linear-gradient(
+        180deg,
+        rgba(255,255,255,.025),
+        rgba(255,255,255,.015)
+        );
+
+    border:1px solid rgba(212,175,55,.12);
+
+    box-shadow:
+        inset 0 0 40px rgba(212,175,55,.03);
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    white-space:pre;
+
+    font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Menlo,
+        Consolas,
+        monospace;
+
+    font-size:.95rem;
+
+    line-height:1.65;
+
+    color:#e5e5e5;
+
+    -webkit-overflow-scrolling:touch;
+}
+
+.continuity-diagram::-webkit-scrollbar{
+
+    height:8px;
+}
+
+.continuity-diagram::-webkit-scrollbar-track{
+
+    background:rgba(255,255,255,.03);
+}
+
+.continuity-diagram::-webkit-scrollbar-thumb{
+
+    background:rgba(212,175,55,.25);
+
+    border-radius:999px;
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:768px){
+
+    .continuity-diagram{
+
+        padding:24px;
+
+        font-size:.78rem;
+
+        line-height:1.55;
+    }
+
+    .diagram-hint{
+
+        font-size:.72rem;
+    }
+} 
