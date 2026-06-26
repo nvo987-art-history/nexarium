@@ -1,1 +1,53 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "ResearchProject",
+    "ScholarlyArticle"
+  ],
+  "@id": "https://nexarium.us/color-as-a-generative-principle-in-the-work-of-sonia-delaunay.jsonld",
+  "url": "https://nexarium.us/color-as-a-generative-principle-in-the-work-of-sonia-delaunay.jsonld",
+  "name": "Color as a Generative Principle in the Work of Sonia Delaunay",
+  "alternateName": "The Generative Role of Color in Sonia Delaunay's Work",
+  "description": "An interdisciplinary research project examining color as an autonomous and generative principle in the work of Sonia Delaunay and its relevance to contemporary algorithmic and AI-mediated visual culture.",
+  "dateCreated": "2026-06-26",
+  "datePublished": "2026-06-26",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Sonia Delaunay",
+    "Color Theory",
+    "Generative Color",
+    "Visual Culture",
+    "Algorithmic Image Generation",
+    "Artificial Intelligence",
+    "Art History",
+    "Modernism",
+    "Orphism",
+    "Visual Thinking"
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://nvo987.us/#author",
+    "name": "Nicholas Van-Orton"
+  },
+  "creator": {
+    "@id": "https://nvo987.us/#author"
+  },
+  "publisher": {
+    "@id": "https://nvo987.us/#author"
+  },
+  "about": [
+    {
+      "@type": "Person",
+      "name": "Sonia Delaunay"
+    },
+    {
+      "@type": "Thing",
+      "name": "Color as a Generative Principle"
+    },
+    {
+      "@type": "Thing",
+      "name": "Algorithmic Visual Culture"
+    }
+  ]
+}
